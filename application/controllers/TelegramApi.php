@@ -493,38 +493,7 @@ class TelegramApi extends REST_Controller {
 
 			if($existing_user['stage'] == 'Transfer Fund'){
 
-				if($userInput == "Agree"){
-
-					$ar = array('stage_position'=>1);
-					$this->update_stage($ar, $telegram_id);
-					$balance = $this->dailySum($telegram_id);
-					$spending = number_format(5000,2);
-					if(!empty($balance)){
-						$spending = number_format((5000 - $balance['sum_amount']), 2);
-					}
-					
-					$msg="You have transfer limit of $".$spending." for today.".chr(10).chr(10)."Kindly select or enter amount to send 💰 ".chr(10).chr(10)."(Max transfer:: $".$spending.")";
-					$keyboard = array(
-						["100"], ["200"],["500"],['1000'],['2000'],['3000'],['5000']
-					);
-								$resp = array("keyboard" => $keyboard, "resize_keyboard" => true, "one_time_keyboard" => true);
-								$reply = json_encode($resp);
-								file_get_contents($path.'/sendChatAction?chat_id='.$updates->message->chat->id.'&action=typing');
-								file_get_contents($path."/sendmessage?chat_id=$chat_id&text=".urlencode($msg) ."&reply_markup=".$reply);
-								return;
-				}
-
-				if($userInput == "Disagree"){
-					$ar = array('stage'=>'Registered','stage_position'=>0);
-					$this->update_stage($ar, $telegram_id);
-					file_get_contents($path.'/sendChatAction?chat_id='.$updates->message->chat->id.'&action=typing');
-							$msg = 'Request for transfer has been declined by you!'.chr(10).chr(10);
-							 $msg .= "Click /START to go to Dashboard";
-							 file_get_contents($path.'/sendmessage?chat_id='.$chat_id.'&parse_mode=html&text='.urlencode($msg));
-							 return;
-
-				}
-
+				
 				if($existing_user['stage_position'] == 1){
 
 					$digital_value = preg_replace("/[^0-9\.]/", '', $userInput);
@@ -703,7 +672,7 @@ class TelegramApi extends REST_Controller {
 									$reply = json_encode($resp);
 								
 						file_get_contents($path.'/sendChatAction?chat_id='.$chat_id.'&action=typing');
-						$msg = 'ACCOUNT VERIFICATION::'.chr(10).chr(10).'Account Holder:: '.$account_name.chr(10).chr(10).'Account Number:: '.$account_no.chr(10).chr(10).chr(10).'TRANSACTION DETAILS:: '.chr(10).chr(10).'Recipient Name:: '.$transaction_details['recipient_name'].chr(10).chr(10).'Recipient Mobile:: '.$transaction_details['recipient_mobile'].chr(10).chr(10).'Recipient Bank:: '.$transaction_details['recipient_bank'].chr(10).chr(10).'Transfer Amount:: $'.$transaction_details['amount'].chr(10).chr(10).'Transfer Charges:: $'.$transaction_details['charges'].chr(10).chr(10).'Total Payment:: $'.number_format(($transaction_details['charges'] + $transaction_details['amount']), 2).chr(10).chr(10).'Dollar => Naira:: ₦'.number_format($get_rate['value'], 2).chr(10).chr(10).'Recipent Receives:: ₦'.number_format(($get_rate['value'] * ($transaction_details['charges'] + $transaction_details['amount'])), 2) ;
+						$msg = 'ACCOUNT VERIFICATION::'.chr(10).chr(10).'Account Holder:: '.$account_name.chr(10).chr(10).'Account Number:: '.$account_no.chr(10).chr(10).chr(10).'TRANSACTION DETAILS:: '.chr(10).chr(10).'Recipient Name:: '.$transaction_details['recipient_name'].chr(10).chr(10).'Recipient Mobile:: '.$transaction_details['recipient_mobile'].chr(10).chr(10).'Recipient Bank:: '.$transaction_details['recipient_bank'].chr(10).chr(10).'Transfer Amount:: $'.$transaction_details['amount'].chr(10).chr(10).'Transfer Charges:: $'.$transaction_details['charges'].chr(10).chr(10).'Total Payment:: $'.number_format(($transaction_details['charges'] + $transaction_details['amount']), 2).chr(10).chr(10).'Dollar => Naira:: ₦'.number_format($get_rate['value'], 2).chr(10).chr(10).'Recipent Receives:: ₦'.number_format(($get_rate['value'] * $transaction_details['amount']), 2) ;
 						file_get_contents($path."/sendmessage?chat_id=$chat_id&text=".urlencode($msg) ."&reply_markup=".$reply);
 						return; 
 						####################### END OF RESPONSE FOR ADDRESS ######################################  
@@ -749,6 +718,39 @@ class TelegramApi extends REST_Controller {
 				
 
 			}
+
+			if($userInput == "Agree"){
+
+				$ar = array('stage_position'=>1);
+				$this->update_stage($ar, $telegram_id);
+				$balance = $this->dailySum($telegram_id);
+				$spending = number_format(5000,2);
+				if(!empty($balance)){
+					$spending = number_format((5000 - $balance['sum_amount']), 2);
+				}
+				
+				$msg="You have transfer limit of $".$spending." for today.".chr(10).chr(10)."Kindly select or enter amount to send 💰 ".chr(10).chr(10)."(Max transfer:: $".$spending.")";
+				$keyboard = array(
+					["100"], ["200"],["500"],['1000'],['2000'],['3000'],['5000']
+				);
+							$resp = array("keyboard" => $keyboard, "resize_keyboard" => true, "one_time_keyboard" => true);
+							$reply = json_encode($resp);
+							file_get_contents($path.'/sendChatAction?chat_id='.$updates->message->chat->id.'&action=typing');
+							file_get_contents($path."/sendmessage?chat_id=$chat_id&text=".urlencode($msg) ."&reply_markup=".$reply);
+							return;
+			}
+
+			if($userInput == "Disagree"){
+				$ar = array('stage'=>'Registered','stage_position'=>0);
+				$this->update_stage($ar, $telegram_id);
+				file_get_contents($path.'/sendChatAction?chat_id='.$updates->message->chat->id.'&action=typing');
+						$msg = 'Request for transfer has been declined by you!'.chr(10).chr(10);
+						 $msg .= "Click /START to go to Dashboard";
+						 file_get_contents($path.'/sendmessage?chat_id='.$chat_id.'&parse_mode=html&text='.urlencode($msg));
+						 return;
+
+			}
+
 
 			}
 
