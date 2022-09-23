@@ -24,7 +24,7 @@ class TelegramApi extends REST_Controller {
 
 	private $bot_link = "https://t.me/KwikExchangeBot";
 	private $public_full_path = "https://api.telegram.org/bot5620628494:AAGVmoUrdOYcrtcyXT0i1-_kz1yEM2tbefQ";
-	//WebHok Configuration :: https://api.telegram.org/bot5620628494:AAGVmoUrdOYcrtcyXT0i1-_kz1yEM2tbefQ/setwebhook?url=https://wesabi.com/api/telegramApi/start
+	//WebHok Configuration :: https://api.telegram.org/bot5620628494:AAGVmoUrdOYcrtcyXT0i1-_kz1yEM2tbefQ/setwebhook?url=https://kwikxchangebot.herokuapp.com/telegramApi/start
 
 	public function start_post()
     {
@@ -146,12 +146,12 @@ class TelegramApi extends REST_Controller {
 									return;  
 								}
 
-				   }elseif($existing_user['stage'] == 'Registered' || $existing_user['stage'] == 'Transfer Fund' || $existing_user['stage'] == 'Transfer Status' || $existing_user['stage'] == 'Confirm KYC' || $existing_user['stage'] == 'Contact Support'){
+				   }elseif($existing_user['stage'] == 'Registered' || $existing_user['stage'] == 'Transfer Fund' || $existing_user['stage'] == 'Transfer Status' || $existing_user['stage'] == 'Contact Support'){
 					$ar = array('stage'=>'Registered','stage_position'=>0);
 					$this->update_stage($ar, $telegram_id);
 					//Back to dashboard
 					$keyboard = array(
-						["Transfer Fund"], ["Transfer Status"], ["Confirm KYC"],["Contact Support"]
+						["Transfer Fund"], ["Transfer Status"], ["Contact Support"]
 					);
 					$resp = array("keyboard" => $keyboard, "resize_keyboard" => true, "one_time_keyboard" => true);
 					$reply = json_encode($resp);
