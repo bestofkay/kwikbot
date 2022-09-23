@@ -503,7 +503,7 @@ class TelegramApi extends REST_Controller {
 						$spending = number_format((5000 - $balance['sum_amount']), 2);
 					}
 					
-					$msg="You have transfer limit of $'".$spending."' for today.".chr(10).chr(10)."Kindly select or enter amount to send 💰 ".chr(10).chr(10)."(Max transfer:: $'".$spending."')";
+					$msg="You have transfer limit of $".$spending." for today.".chr(10).chr(10)."Kindly select or enter amount to send 💰 ".chr(10).chr(10)."(Max transfer:: $".$spending.")";
 					$keyboard = array(
 						["100"], ["200"],["500"],['1000'],['2000'],['3000'],['5000']
 					);
@@ -528,7 +528,7 @@ class TelegramApi extends REST_Controller {
 				if($existing_user['stage_position'] == 1){
 
 					$digital_value = preg_replace("/[^0-9\.]/", '', $userInput);
-					$digital_value = number_format((float)$digital_value,2);
+					$digital_value = (float)$digital_value;
 					if($digital_value < 500){
 						$charges = 2.5;
 					}else{
