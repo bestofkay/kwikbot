@@ -47,7 +47,7 @@ class TelegramApi extends REST_Controller {
 					##### unbanned conditions
 					$this->unbannedTemporary($existing_user['id']);
 					file_get_contents($path.'/sendChatAction?chat_id='.$chat_id.'&action=typing');
-					$msg = 'Congratulation!!!'.chr(10).'Your account has been unbanned'.chr(10).'Click /start to chat with me.';
+					$msg = 'Congratulation!!!'.chr(10).'Your account has been unbanned'.chr(10).'Click /START to chat with me.';
 					file_get_contents($path.'/sendmessage?chat_id='.$chat_id.'&parse_mode=html&text='.urlencode($msg));
 					return;
 				}else{
@@ -90,7 +90,7 @@ class TelegramApi extends REST_Controller {
 					return;
 					}
 
-				        $msg = "Network Issue, Kindly try again by pressing <b>START</b>";
+				        $msg = "Network Issue, Kindly try again by pressing <b>/START</b>";
     					file_get_contents($path."/sendmessage?chat_id=$chat_id&parse_mode=html&text=".urlencode($msg));
     					return;
     					
@@ -170,7 +170,7 @@ class TelegramApi extends REST_Controller {
 					$reply = json_encode($resp);
 				
 					file_get_contents($path.'/sendChatAction?chat_id='.$chat_id.'&action=typing');
-					$msg = 'Something went wrong'.chr(10).chr(10).'Kindly press START to continue';
+					$msg = 'Something went wrong'.chr(10).chr(10).'Kindly press /START to continue';
 					file_get_contents($path."/sendmessage?chat_id=$chat_id&text=".urlencode($msg) ."&reply_markup=".$reply);
 				   return;
 
@@ -457,9 +457,16 @@ class TelegramApi extends REST_Controller {
 				elseif($userInput == "Transfer Status"){
 					
 					$ar = array('stage'=>'Transfer Status','stage_position'=>0);
-							    $this->update_stage($ar, $telegram_id);
+					$this->update_stage($ar, $telegram_id);
+					
+								$keyboard = array(
+									["Payment Confirmation"], ["Disbursement Status"]
+								);
+								$resp = array("keyboard" => $keyboard, "resize_keyboard" => true, "one_time_keyboard" => true);
+								$reply = json_encode($resp);
+			
 					file_get_contents($path.'/sendChatAction?chat_id='.$updates->message->chat->id.'&action=typing');
-					$msg="Track your transactions".chr(10).chr(10)."Type the <em>TRANSACTION CODE</em>";
+					$msg="Check everything about your transactions".chr(10).chr(10)."<i>Pick one of the options</i>";
 					file_get_contents($path."/sendmessage?chat_id=$chat_id&parse_mode=html&text=".urlencode($msg) ."&reply_markup=".$reply);
 					return;
 
@@ -698,7 +705,7 @@ class TelegramApi extends REST_Controller {
 				$array=array('ongoing_status'=>1);
 						$this->update_telegramTransactions($array, $existing_user['last_transaction_id']);
 
-				$msg = 'Kindly deposit the sum of '.number_format(($transaction_details['chrges'] + $transaction_details['amount']), 2).'USDT asset into the wallet address below:'.chr(10).chr(10).'<code>Wallet Address:: 0x9d8290f731D38CF2feF112Ac74F1dDa69509cf18</code>'.chr(10).chr(10).chr(10).'On successful transfer of fund to KwikExchage wallet, Kindly provide TRANSACTIONID of the transfer as proof of fund on Transfer Status Menu'.chr(10).chr(10).chr(10).'Your KwikExchange Transaction code is <code>'.$transaction_details['transaction_code'].'</code> Copy it!!'.chr(10).chr(10).chr(10).'Click /START to go to Dashboard';
+				$msg = 'Kindly deposit the exact sum of '.number_format(($transaction_details['charges'] + $transaction_details['amount']), 2).'USDT asset into the wallet address below:'.chr(10).chr(10).'<code>Wallet Address:: 0x9d8290f731D38CF2feF112Ac74F1dDa69509cf18</code>'.chr(10).chr(10).chr(10).'On successful payment into KwikExchage wallet, Kindly provide the <code>Transaction ID</code> as proof of payment on Transfer Status Menu'.chr(10).chr(10).chr(10).'Your KwikExchange Transaction code for this transfer is: <code>'.chr(10).$transaction_details['transaction_code'].'</code>'.chr(10).'COPY IT!!'.chr(10).chr(10).chr(10).'Click /START to go to Dashboard';
 				$url    = "https://wesabi.com/api/assets/images/wallet.png";
 				file_get_contents($path.'/sendChatAction?chat_id='.$updates->message->chat->id.'&action=typing');
 				file_get_contents($path."/sendphoto?chat_id=$chat_id&photo=".$url."&caption=".urlencode($msg)."&parse_mode=HTML");
@@ -754,6 +761,139 @@ class TelegramApi extends REST_Controller {
 
 			}
 
+			if($existing_user['stage'] == 'Transfer Status'){
+
+				if($existing_user['stage_position'] == 0){
+					if(strtolower($userInput) == 'payment confirmation'){
+
+						$ar = array('stage_position'=>1);
+						$this->update_stage($ar, $telegram_id);
+
+						 file_get_contents($path.'/sendChatAction?chat_id='.$chat_id.'&action=typing');
+							$msg = "Kindly provide kwikExchange <code>transaction code</code> 🗃 ";
+							file_get_contents($path."/sendmessage?chat_id=$chat_id&parse_mode=html&text=".urlencode($msg));
+							return; 
+
+					}
+					if(strtolower($userInput) == 'disbursement status'){
+
+						$ar = array('stage_position'=>11);
+						$this->update_stage($ar, $telegram_id);
+
+						 file_get_contents($path.'/sendChatAction?chat_id='.$chat_id.'&action=typing');
+							$msg = "Kindly provide kwikExchange <code>transaction code</code> 🗃 ";
+							file_get_contents($path."/sendmessage?chat_id=$chat_id&parse_mode=html&text=".urlencode($msg));
+							return; 
+
+					}
+
+					$returnValue = $this->attempt_increment($userID);
+						if($returnValue >= 5){
+							$this->banTemporary($userID);
+							file_get_contents($path.'/sendChatAction?chat_id='.$chat_id.'&action=typing');
+							$msg = 'Oooops!!'.chr(10).chr(10).'You are currently banned from chatting with me!'.chr(10).chr(10).'Your account will be unlock at '.date('Y-m-d h:i:s', $banned_expiration)." (GMT+2)";
+							file_get_contents($path.'/sendmessage?chat_id='.$chat_id.'&parse_mode=html&text='.urlencode($msg));
+							return;
+						}else{
+							file_get_contents($path.'/sendChatAction?chat_id='.$updates->message->chat->id.'&action=typing');
+							$msg = 'Option Picked does not exist!'.chr(10).chr(10).'('.$returnValue.'/5) attempts'.chr(10).chr(10);
+							 $msg .= "Click /START to go to dashboard";
+							 file_get_contents($path.'/sendmessage?chat_id='.$chat_id.'&parse_mode=html&text='.urlencode($msg));
+							 return;
+						}
+				}
+
+				if($existing_user['stage_position'] == 1){
+
+					$valid_code = $this->confirm_code($userInput, $telegram_id);
+					if(empty($valid_code)){
+
+						$returnValue = $this->attempt_increment($userID);
+						if($returnValue >= 5){
+							$this->banTemporary($userID);
+							file_get_contents($path.'/sendChatAction?chat_id='.$chat_id.'&action=typing');
+							$msg = 'Oooops!!'.chr(10).chr(10).'You are currently banned from chatting with me!'.chr(10).chr(10).'Your account will be unlock at '.date('Y-m-d h:i:s', $banned_expiration)." (GMT+2)";
+							file_get_contents($path.'/sendmessage?chat_id='.$chat_id.'&parse_mode=html&text='.urlencode($msg));
+							return;
+						}else{
+							file_get_contents($path.'/sendChatAction?chat_id='.$updates->message->chat->id.'&action=typing');
+							$msg = 'Transaction code do not exist'.chr(10).chr(10).'('.$returnValue.'/5) attempts'.chr(10).chr(10);
+							 $msg .= "Kindly enter the correct <code>Transaction code</code>".chr(10)." OR ".chr(10)."Press /START to go to dashboard";
+							 file_get_contents($path.'/sendmessage?chat_id='.$chat_id.'&parse_mode=html&text='.urlencode($msg));
+							 return;
+						}
+
+					}else{
+						$ar = array('stage_position'=>2, 'trans_code'=>$userInput, 'last_transaction_id'=>$valid_code['id']);
+						$this->update_stage($ar, $telegram_id);
+
+						 file_get_contents($path.'/sendChatAction?chat_id='.$chat_id.'&action=typing');
+							$msg = "Kindly provide the transfer <code>Transaction ID</code> to confirm your payment 🗃 ";
+							file_get_contents($path."/sendmessage?chat_id=$chat_id&parse_mode=html&text=".urlencode($msg));
+							return; 
+
+					}
+
+				}
+
+				if($existing_user['stage_position'] == 11){
+
+					$valid_code = $this->confirm_code($userInput, $telegram_id);
+					if(empty($valid_code)){
+
+						$returnValue = $this->attempt_increment($userID);
+						if($returnValue >= 5){
+							$this->banTemporary($userID);
+							file_get_contents($path.'/sendChatAction?chat_id='.$chat_id.'&action=typing');
+							$msg = 'Oooops!!'.chr(10).chr(10).'You are currently banned from chatting with me!'.chr(10).chr(10).'Your account will be unlock at '.date('Y-m-d h:i:s', $banned_expiration)." (GMT+2)";
+							file_get_contents($path.'/sendmessage?chat_id='.$chat_id.'&parse_mode=html&text='.urlencode($msg));
+							return;
+						}else{
+							file_get_contents($path.'/sendChatAction?chat_id='.$updates->message->chat->id.'&action=typing');
+							$msg = 'Transaction code do not exist'.chr(10).chr(10).'('.$returnValue.'/5) attempts'.chr(10).chr(10);
+							 $msg .= "Kindly enter the correct <code>Transaction code</code>".chr(10)." OR ".chr(10)."Press /START to go to dashboard";
+							 file_get_contents($path.'/sendmessage?chat_id='.$chat_id.'&parse_mode=html&text='.urlencode($msg));
+							 return;
+						}
+
+					}else{
+						
+						$msg="";
+						if($valid_code['payment_status'] == 0){
+							$msg.= "Payment yet be confirmed by KwikExchange".chr(10).chr(10)."Kindly send <code>Transcation ID</code> as proof if you have not sent it".chr(10).chr(10);
+						}
+						if($valid_code['payment_status'] == 1){
+							$msg.= "Payment of $".number_format($valid_code['amount'], 2)." has been confirmed by KwikExchange".chr(10).chr(10);
+						}
+						if($valid_code['payment_status'] == 1 && $valid_code['disbursement_status'] == 0){
+							$msg.= "Fund yet be disbursed.".chr(10)."Recipient has been sent SMS".chr(10).chr(10)."Disbursement will be done soon".chr(10).chr(10);
+						}
+						if($valid_code['disbursement_status'] == 1){
+							$msg.= "Fund disbursed successfully to recipient.".chr(10)."Transfer completed";
+						}
+
+						 file_get_contents($path.'/sendChatAction?chat_id='.$chat_id.'&action=typing');
+							$msg.= chr(10).chr(10)."Press /START to go to dashboard";
+							file_get_contents($path."/sendmessage?chat_id=$chat_id&parse_mode=html&text=".urlencode($msg));
+							return; 
+
+					}
+
+				}
+
+				if($existing_user['stage_position'] == 2){
+
+						$ar = array('transaction_id'=>$userInput);
+						$this->update_telegramTransactions($ar, $existing_user['last_transaction_id']);
+
+						 file_get_contents($path.'/sendChatAction?chat_id='.$chat_id.'&action=typing');
+							$msg = "Thanks for providing us proof of payment <code>Transaction ID</code>".chr(10).chr(10)."We will get in touch and send notification on confirming your payment.".chr(10).chr(10)."Thanks".chr(10).chr(10)."Press /START to go to dashboard";
+							file_get_contents($path."/sendmessage?chat_id=$chat_id&parse_mode=html&text=".urlencode($msg));
+							return; 
+
+				}
+
+			}
 
 		   }
 
@@ -781,6 +921,11 @@ class TelegramApi extends REST_Controller {
 
 	private function getBankCode($name){
 		$row = $this->db->query("SELECT * FROM telegram_banks where name='".$name."'")->row_array();
+		return $row;
+	}
+
+	private function confirm_code($code, $id){
+		$row = $this->db->query("SELECT * FROM telegram_transactions where transaction_code='".$code."' AND telegram_id='".$id."'")->row_array();
 		return $row;
 	}
 	
