@@ -1,0 +1,2767 @@
+{
+    "status": "00",
+    "message": "Successful",
+    "requestID": "4047591",
+    "statement": {
+        "status": "success",
+        "name": "FALUYI KAYODE OLUWASANMI",
+        "nuban": "3021857876",
+        "accountCategory": "Individual",
+        "accountType": "SAVINGS",
+        "address": "6 NEW ESTATE KOTOPO TUNDE IBIKUNLE RD ILARO OTA ILARO OGUN NIGERIA",
+        "aod": "1753-01-01T00:00:00",
+        "ticketNo": "1212226-2",
+        "availableBal": "13201.9600",
+        "bookBal": "13201.9600",
+        "totalCredit": "885703.35",
+        "totalDebit": "680083.61",
+        "tenor": "6",
+        "period": "01/01/2021 to 07/30/2021",
+        "currency": "NGN",
+        "applicants": " Kayode faluyi ",
+        "signatories": [{
+            "name": "KAYODE OLUWASANMI  FALUYI",
+            "bvn": "22266627124",
+            "dob": "1753-01-01T00:00:00"
+        }],
+        "details": [{
+                "pTransactionDate": "01/01/2021",
+                "pValueDate": "01/01/2021",
+                "pNarration": "BALANCE BROUGHT FORWARD ...",
+                "pCredit": "65245.35",
+                "pDebit": "0",
+                "pBalance": "65245.35"
+            },
+            {
+                "pTransactionDate": "01/04/2021",
+                "pValueDate": "01/01/2021",
+                "pNarration": "MOB.BNKG:033/EMOKPARE SAMUEL & OBHIOKHENA PATRICIA/:DEC TITHE:000008210101054318598337336206",
+                "pCredit": "0",
+                "pDebit": "18526.88",
+                "pBalance": "46718.47"
+            },
+            {
+                "pTransactionDate": "01/04/2021",
+                "pValueDate": "01/01/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/:WITHDRAW 10:000008210101054651811979818406",
+                "pCredit": "0",
+                "pDebit": "15026.88",
+                "pBalance": "31691.59"
+            },
+            {
+                "pTransactionDate": "01/04/2021",
+                "pValueDate": "01/01/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/:SUPERMARKET:000008210101212750270989223106",
+                "pCredit": "0",
+                "pDebit": "9526.88",
+                "pBalance": "22164.71"
+            },
+            {
+                "pTransactionDate": "01/04/2021",
+                "pValueDate": "01/02/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:0A1F4977D5A741788C95C5E7C104B6B1",
+                "pCredit": "0",
+                "pDebit": "500",
+                "pBalance": "21664.71"
+            },
+            {
+                "pTransactionDate": "01/04/2021",
+                "pValueDate": "01/03/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/:GIFT:000008210103194210730007351706",
+                "pCredit": "0",
+                "pDebit": "5010.75",
+                "pBalance": "16653.96"
+            },
+            {
+                "pTransactionDate": "01/04/2021",
+                "pValueDate": "01/04/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:6277B80DF285440888A074CCDB328D14",
+                "pCredit": "0",
+                "pDebit": "6000",
+                "pBalance": "10653.96"
+            },
+            {
+                "pTransactionDate": "01/04/2021",
+                "pValueDate": "01/04/2021",
+                "pNarration": "STAMP DUTY - N53000 TXN  AS AT 29-DEC-2020",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "10603.96"
+            },
+            {
+                "pTransactionDate": "01/05/2021",
+                "pValueDate": "01/04/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/:TRF:000008210104224315995395170506",
+                "pCredit": "0",
+                "pDebit": "5010.75",
+                "pBalance": "5593.21"
+            },
+            {
+                "pTransactionDate": "01/06/2021",
+                "pValueDate": "01/06/2021",
+                "pNarration": "MOB.BNKG:044/KAYODE OLUWASANMI  FALUYI/:TRF:000008210106122001401492536806",
+                "pCredit": "0",
+                "pDebit": "5126.88",
+                "pBalance": "466.33"
+            },
+            {
+                "pTransactionDate": "01/08/2021",
+                "pValueDate": "01/08/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:48B30780A1D44F7EAC555D452A80316E",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "366.33"
+            },
+            {
+                "pTransactionDate": "01/14/2021",
+                "pValueDate": "01/14/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:C09AB952DF804788885F84F447BC11D6",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "266.33"
+            },
+            {
+                "pTransactionDate": "01/14/2021",
+                "pValueDate": "01/14/2021",
+                "pNarration": "NIBSS:VICTORIA TOPE OLAOYE:SAVINGS:000015210114184617001420069545",
+                "pCredit": "20000",
+                "pDebit": "0",
+                "pBalance": "20266.33"
+            },
+            {
+                "pTransactionDate": "01/14/2021",
+                "pValueDate": "01/14/2021",
+                "pNarration": "MOB-MOBILERECHARGE-MTNV-07030287311-19501468663627657",
+                "pCredit": "0",
+                "pDebit": "1500",
+                "pBalance": "18766.33"
+            },
+            {
+                "pTransactionDate": "01/18/2021",
+                "pValueDate": "01/16/2021",
+                "pNarration": "MOB.BNKG:214/OKOLIE GODWIN/:PROPHET EMMA:000008210116110745065774240606",
+                "pCredit": "0",
+                "pDebit": "1010.75",
+                "pBalance": "17755.58"
+            },
+            {
+                "pTransactionDate": "01/18/2021",
+                "pValueDate": "01/17/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:8AA4C43561E3448A906A305C5917BBBC",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "17655.58"
+            },
+            {
+                "pTransactionDate": "01/18/2021",
+                "pValueDate": "01/18/2021",
+                "pNarration": "STAMP DUTY - N20000 TXN  AS AT 14-JAN-2021",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "17605.58"
+            },
+            {
+                "pTransactionDate": "01/18/2021",
+                "pValueDate": "01/18/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:2790BB126E25469E940CE522A8591C54",
+                "pCredit": "0",
+                "pDebit": "1500",
+                "pBalance": "16105.58"
+            },
+            {
+                "pTransactionDate": "01/19/2021",
+                "pValueDate": "01/19/2021",
+                "pNarration": "MOB.BNKG:058/AJAYI OLADIMEJI/:NEPA:000008210119125952992721462406",
+                "pCredit": "0",
+                "pDebit": "7576.88",
+                "pBalance": "8528.7"
+            },
+            {
+                "pTransactionDate": "01/20/2021",
+                "pValueDate": "01/20/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:CDDC590BF4B843E48E263D63154CEBC0",
+                "pCredit": "0",
+                "pDebit": "1500",
+                "pBalance": "7028.7"
+            },
+            {
+                "pTransactionDate": "01/21/2021",
+                "pValueDate": "01/21/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:B176E4C4D9764C0184E689A6A8DC7418",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "6928.7"
+            },
+            {
+                "pTransactionDate": "01/22/2021",
+                "pValueDate": "01/22/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:F494D3549B9F4524944A32126F044FEF",
+                "pCredit": "0",
+                "pDebit": "1500",
+                "pBalance": "5428.7"
+            },
+            {
+                "pTransactionDate": "01/22/2021",
+                "pValueDate": "01/22/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/:HELP WITHDRAW:000008210122200741861449845006",
+                "pCredit": "0",
+                "pDebit": "5126.88",
+                "pBalance": "301.82"
+            },
+            {
+                "pTransactionDate": "01/25/2021",
+                "pValueDate": "01/23/2021",
+                "pNarration": "NIBSS:AKINRINBOLA OMOLAYO ROSELINE:USSD NIP TRANSFER FROM  08138074201 :000013210123083128000345753300",
+                "pCredit": "1000",
+                "pDebit": "0",
+                "pBalance": "1301.82"
+            },
+            {
+                "pTransactionDate": "01/25/2021",
+                "pValueDate": "01/23/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:023E5E0A9EB34E4C850363FE65AE4BA3",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "1201.82"
+            },
+            {
+                "pTransactionDate": "01/26/2021",
+                "pValueDate": "01/26/2021",
+                "pNarration": "NIBSS:AKINSANYA AKEEM & VICTORIA:VIA GTWORLD :000013210126062440000349363647",
+                "pCredit": "10000",
+                "pDebit": "0",
+                "pBalance": "11201.82"
+            },
+            {
+                "pTransactionDate": "01/26/2021",
+                "pValueDate": "01/26/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:643B8401BD67437CAF62397088B34DCB",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "11101.82"
+            },
+            {
+                "pTransactionDate": "01/26/2021",
+                "pValueDate": "01/26/2021",
+                "pNarration": "MOB.BNKG:057/SAMUEL OYEBISI IBIRINDE/:TRF:000008210126135350030414032606",
+                "pCredit": "0",
+                "pDebit": "5010.75",
+                "pBalance": "6091.07"
+            },
+            {
+                "pTransactionDate": "01/27/2021",
+                "pValueDate": "01/27/2021",
+                "pNarration": "SMS SERVICE CHARGED APPLIED JAN 2021 - 3021857876",
+                "pCredit": "0",
+                "pDebit": "92",
+                "pBalance": "5999.07"
+            },
+            {
+                "pTransactionDate": "01/27/2021",
+                "pValueDate": "01/27/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:7805DA60D3F14B21B3A8149EC24B0D36",
+                "pCredit": "0",
+                "pDebit": "1500",
+                "pBalance": "4499.07"
+            },
+            {
+                "pTransactionDate": "01/29/2021",
+                "pValueDate": "01/29/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:A898C9CB397A4BAF84B10C635898B221",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "4399.07"
+            },
+            {
+                "pTransactionDate": "01/29/2021",
+                "pValueDate": "01/29/2021",
+                "pNarration": "SMS SERVICE CHARGED APPLIED 11 2020 - 3021857876",
+                "pCredit": "0",
+                "pDebit": "76",
+                "pBalance": "4323.07"
+            },
+            {
+                "pTransactionDate": "02/01/2021",
+                "pValueDate": "01/30/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:5D1091C89F7E436C9A34E9B9563FBFA7",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "4223.07"
+            },
+            {
+                "pTransactionDate": "02/01/2021",
+                "pValueDate": "01/30/2021",
+                "pNarration": "NIBSS:KAYODE OLUWASANMI  FALUYI:TRF/UPKEEP/FRM KAYODE OLUWASANMI  FALUYI TO FALUYI:000014210130145323247170172102",
+                "pCredit": "50000",
+                "pDebit": "0",
+                "pBalance": "54223.07"
+            },
+            {
+                "pTransactionDate": "02/01/2021",
+                "pValueDate": "01/30/2021",
+                "pNarration": "NIBSS:KAYODE OLUWASANMI  FALUYI:TRF/UPKEEP/FRM KAYODE OLUWASANMI  FALUYI TO FALUYI:000014210130150220213875107078",
+                "pCredit": "13700",
+                "pDebit": "0",
+                "pBalance": "67923.07"
+            },
+            {
+                "pTransactionDate": "02/01/2021",
+                "pValueDate": "01/30/2021",
+                "pNarration": "MOB.BNKG:044/FALUYI BEATRICE/UPKEEP:000008210130153603763040310706",
+                "pCredit": "0",
+                "pDebit": "10026.88",
+                "pBalance": "57896.19"
+            },
+            {
+                "pTransactionDate": "02/01/2021",
+                "pValueDate": "01/30/2021",
+                "pNarration": "MOB.BNKG:058/OBEMBE ADEWALE ADESANYA/TRF:000008210130161810290362809706",
+                "pCredit": "0",
+                "pDebit": "15326.88",
+                "pBalance": "42569.31"
+            },
+            {
+                "pTransactionDate": "02/01/2021",
+                "pValueDate": "01/31/2021",
+                "pNarration": "MOB.BNKG:058/MUHAMMED  ABUBAKAR SEDIQ/BOLT:000008210131150905545456755806",
+                "pCredit": "0",
+                "pDebit": "810.75",
+                "pBalance": "41758.56"
+            },
+            {
+                "pTransactionDate": "02/01/2021",
+                "pValueDate": "02/01/2021",
+                "pNarration": "STAMP DUTY - N10000 TXN  AS AT 26-JAN-2021",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "41708.56"
+            },
+            {
+                "pTransactionDate": "02/02/2021",
+                "pValueDate": "02/02/2021",
+                "pNarration": "MOB.BNKG:044/KAYODE OLUWASANMI  FALUYI/SENT:000008210202150658218616185606",
+                "pCredit": "0",
+                "pDebit": "10126.88",
+                "pBalance": "31581.68"
+            },
+            {
+                "pTransactionDate": "02/03/2021",
+                "pValueDate": "02/03/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:58AB05F17C1B4920988B90AA88DA02A7",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "31481.68"
+            },
+            {
+                "pTransactionDate": "02/04/2021",
+                "pValueDate": "02/04/2021",
+                "pNarration": "MOB.BNKG:035/BINANCE HOLDINGS LIMITED/FIAT:000008210204063407247277942606",
+                "pCredit": "0",
+                "pDebit": "20021.5",
+                "pBalance": "11460.18"
+            },
+            {
+                "pTransactionDate": "02/05/2021",
+                "pValueDate": "02/05/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:C83467754BFA433E8EDD9E900EC94C0B",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "11360.18"
+            },
+            {
+                "pTransactionDate": "02/08/2021",
+                "pValueDate": "02/07/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:E1D28554FA9E41538DFB4B41BED4E1CC",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "11260.18"
+            },
+            {
+                "pTransactionDate": "02/08/2021",
+                "pValueDate": "02/07/2021",
+                "pNarration": "MOB-MOBILERECHARGE-AIRTV-08080480691-19502086014819053",
+                "pCredit": "0",
+                "pDebit": "1000",
+                "pBalance": "10260.18"
+            },
+            {
+                "pTransactionDate": "02/08/2021",
+                "pValueDate": "02/08/2021",
+                "pNarration": "MOB.BNKG:058/OBEMBE ADEWALE ADESANYA/TRG:000008210208125200520756286606",
+                "pCredit": "0",
+                "pDebit": "5005.38",
+                "pBalance": "5254.8"
+            },
+            {
+                "pTransactionDate": "02/08/2021",
+                "pValueDate": "02/08/2021",
+                "pNarration": "STAMP DUTY - N50000 TXN  AS AT 30-JAN-2021",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "5204.8"
+            },
+            {
+                "pTransactionDate": "02/08/2021",
+                "pValueDate": "02/08/2021",
+                "pNarration": "STAMP DUTY - N13700 TXN  AS AT 30-JAN-2021",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "5154.8"
+            },
+            {
+                "pTransactionDate": "02/09/2021",
+                "pValueDate": "02/09/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:8717A44C2D66480486048E303958DB95",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "5054.8"
+            },
+            {
+                "pTransactionDate": "02/10/2021",
+                "pValueDate": "02/10/2021",
+                "pNarration": "MOB.BNKG:058/FALUYI FARAMOLU SIMILEJESU/MONEY:000008210210183615975023705106",
+                "pCredit": "0",
+                "pDebit": "5005.38",
+                "pBalance": "49.42"
+            },
+            {
+                "pTransactionDate": "02/12/2021",
+                "pValueDate": "02/12/2021",
+                "pNarration": "NIBSS:KAYODE OLUWASANMI  FALUYI:TRF/TRF/FRM KAYODE OLUWASANMI  FALUYI TO FALUYI:000014210212062613295051528821",
+                "pCredit": "33050",
+                "pDebit": "0",
+                "pBalance": "33099.42"
+            },
+            {
+                "pTransactionDate": "02/15/2021",
+                "pValueDate": "02/13/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:EB3241AEEBD446F695E4F198CEFA3B6A",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "32999.42"
+            },
+            {
+                "pTransactionDate": "02/15/2021",
+                "pValueDate": "02/13/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/TRF:000008210213133507107857310406",
+                "pCredit": "0",
+                "pDebit": "7021.5",
+                "pBalance": "25977.92"
+            },
+            {
+                "pTransactionDate": "02/15/2021",
+                "pValueDate": "02/13/2021",
+                "pNarration": "MOB.BNKG:011/AKINNUBI ADEROPO/LOVE FEAST:000008210213133652212379076406",
+                "pCredit": "0",
+                "pDebit": "1005.38",
+                "pBalance": "24972.54"
+            },
+            {
+                "pTransactionDate": "02/15/2021",
+                "pValueDate": "02/14/2021",
+                "pNarration": "MOB.BNKG:214/OLAKUKAN SHAMSON GBENGA/BOLT:000008210214185514714009083006",
+                "pCredit": "0",
+                "pDebit": "2105.38",
+                "pBalance": "22867.16"
+            },
+            {
+                "pTransactionDate": "02/15/2021",
+                "pValueDate": "02/15/2021",
+                "pNarration": "STAMP DUTY - N33050 TXN  AS AT 12-FEB-2021",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "22817.16"
+            },
+            {
+                "pTransactionDate": "02/15/2021",
+                "pValueDate": "02/15/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/MONEY:000008210215133643003243413706",
+                "pCredit": "0",
+                "pDebit": "5005.38",
+                "pBalance": "17811.78"
+            },
+            {
+                "pTransactionDate": "02/16/2021",
+                "pValueDate": "02/16/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:008C8031A6DF4ED59F608BBBBA276525",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "17711.78"
+            },
+            {
+                "pTransactionDate": "02/16/2021",
+                "pValueDate": "02/16/2021",
+                "pNarration": "MOB.BNKG:058/FALUYI FARAMOLU SIMILEJESU/COOK:000008210216123812892888688806",
+                "pCredit": "0",
+                "pDebit": "4205.38",
+                "pBalance": "13506.4"
+            },
+            {
+                "pTransactionDate": "02/17/2021",
+                "pValueDate": "02/17/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:9EA858ACA6E0465BB1C03D0BD3473A05",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "13406.4"
+            },
+            {
+                "pTransactionDate": "02/17/2021",
+                "pValueDate": "02/17/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:CED39C61AB7A498BA2E9FC92E8277F11",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "13356.4"
+            },
+            {
+                "pTransactionDate": "02/18/2021",
+                "pValueDate": "02/18/2021",
+                "pNarration": "MOB.BNKG:058/AJAYI OLADIMEJI/NEPA:000008210218085243163440537406",
+                "pCredit": "0",
+                "pDebit": "7071.5",
+                "pBalance": "6284.9"
+            },
+            {
+                "pTransactionDate": "02/19/2021",
+                "pValueDate": "02/19/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:70746A76A871421AA0B992AF717714C5",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "6184.9"
+            },
+            {
+                "pTransactionDate": "02/22/2021",
+                "pValueDate": "02/22/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/FOOD:000008210222112338818637226106",
+                "pCredit": "0",
+                "pDebit": "6021.5",
+                "pBalance": "163.4"
+            },
+            {
+                "pTransactionDate": "02/24/2021",
+                "pValueDate": "02/24/2021",
+                "pNarration": "DEBIT CARD QUARTERLY FEE + VAT FEB 2021-3021857876(506106*********6259)",
+                "pCredit": "0",
+                "pDebit": "53.75",
+                "pBalance": "109.65"
+            },
+            {
+                "pTransactionDate": "02/25/2021",
+                "pValueDate": "02/25/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:CD02E0BDABFF40988CB993A28813E3B4",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "9.65"
+            },
+            {
+                "pTransactionDate": "02/26/2021",
+                "pValueDate": "02/26/2021",
+                "pNarration": "NIBSS:FALUYI  BEATRICE BOSEDEFALUYI, BEATRICE BOSEDE:USSD NIP TRANSFER FROM  08035728434 :000013210226092250000015059440",
+                "pCredit": "50000",
+                "pDebit": "0",
+                "pBalance": "50009.65"
+            },
+            {
+                "pTransactionDate": "03/01/2021",
+                "pValueDate": "02/27/2021",
+                "pNarration": "MOB.BNKG:981/IKECHUKWU PAUL OKOH/BIN TRF:000008210227075637397686853106",
+                "pCredit": "0",
+                "pDebit": "20021.5",
+                "pBalance": "29988.15"
+            },
+            {
+                "pTransactionDate": "03/01/2021",
+                "pValueDate": "02/27/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/WITHDRAW:000008210227144710030669710006",
+                "pCredit": "0",
+                "pDebit": "10021.5",
+                "pBalance": "19966.65"
+            },
+            {
+                "pTransactionDate": "03/01/2021",
+                "pValueDate": "02/27/2021",
+                "pNarration": "MOB.BNKG:050/OLAOYE VICTORIA /UR MONEY:000008210227144822102532739006",
+                "pCredit": "0",
+                "pDebit": "11021.5",
+                "pBalance": "8945.15"
+            },
+            {
+                "pTransactionDate": "03/01/2021",
+                "pValueDate": "02/28/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:E6981BF1AE824D978235D99EFEC34AD7",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "8845.15"
+            },
+            {
+                "pTransactionDate": "03/01/2021",
+                "pValueDate": "03/01/2021",
+                "pNarration": "STAMP DUTY - N50000 TXN  AS AT 26-FEB-2021",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "8795.15"
+            },
+            {
+                "pTransactionDate": "03/02/2021",
+                "pValueDate": "03/02/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:94C4C179A84C4E899F5FACDE42AC5264",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "8695.15"
+            },
+            {
+                "pTransactionDate": "03/08/2021",
+                "pValueDate": "03/06/2021",
+                "pNarration": "MOB.BNKG:057/ONYINYE MARY GINIKANWA/TRANSFER:000008210306183449489735373906:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "8685.15"
+            },
+            {
+                "pTransactionDate": "03/08/2021",
+                "pValueDate": "03/06/2021",
+                "pNarration": "MOB.BNKG:057/ONYINYE MARY GINIKANWA/TRANSFER:000008210306183449489735373906",
+                "pCredit": "0",
+                "pDebit": "5000",
+                "pBalance": "3685.15"
+            },
+            {
+                "pTransactionDate": "03/08/2021",
+                "pValueDate": "03/06/2021",
+                "pNarration": "MOB.BNKG:057/ONYINYE MARY GINIKANWA/TRANSFER:000008210306183449489735373906:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "3684.4"
+            },
+            {
+                "pTransactionDate": "03/08/2021",
+                "pValueDate": "03/07/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:2A9043B65AE7483598E6310E2B4DE783",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "3584.4"
+            },
+            {
+                "pTransactionDate": "03/09/2021",
+                "pValueDate": "03/09/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:D61640385CB84CE982133DA6307055E1",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "3484.4"
+            },
+            {
+                "pTransactionDate": "03/09/2021",
+                "pValueDate": "03/09/2021",
+                "pNarration": "NIBSS:KAYODE OLUWASANMI  FALUYI:TRF/TRF/FRM KAYODE OLUWASANMI  FALUYI TO FALUYI:000014210309134930237787056466",
+                "pCredit": "53600",
+                "pDebit": "0",
+                "pBalance": "57084.4"
+            },
+            {
+                "pTransactionDate": "03/10/2021",
+                "pValueDate": "03/10/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:F30EE652D49741D899A74C20C3592EE5",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "56984.4"
+            },
+            {
+                "pTransactionDate": "03/12/2021",
+                "pValueDate": "03/12/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE TRUST VICTOR/SCHOOL:000008210312140012412645246206:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "56974.4"
+            },
+            {
+                "pTransactionDate": "03/12/2021",
+                "pValueDate": "03/12/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE TRUST VICTOR/SCHOOL:000008210312140012412645246206",
+                "pCredit": "0",
+                "pDebit": "5000",
+                "pBalance": "51974.4"
+            },
+            {
+                "pTransactionDate": "03/12/2021",
+                "pValueDate": "03/12/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE TRUST VICTOR/SCHOOL:000008210312140012412645246206:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "51973.65"
+            },
+            {
+                "pTransactionDate": "03/15/2021",
+                "pValueDate": "03/13/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/WITHDRAW:000008210313163226946380143706:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "51948.65"
+            },
+            {
+                "pTransactionDate": "03/15/2021",
+                "pValueDate": "03/13/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/WITHDRAW:000008210313163226946380143706",
+                "pCredit": "0",
+                "pDebit": "13100",
+                "pBalance": "38848.65"
+            },
+            {
+                "pTransactionDate": "03/15/2021",
+                "pValueDate": "03/13/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/WITHDRAW:000008210313163226946380143706:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "38846.77"
+            },
+            {
+                "pTransactionDate": "03/15/2021",
+                "pValueDate": "03/13/2021",
+                "pNarration": "MOB.BNKG:058/FALUYI TAIWO SOLOMON/MATERIAL:000008210313163414054358023706:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "38836.77"
+            },
+            {
+                "pTransactionDate": "03/15/2021",
+                "pValueDate": "03/13/2021",
+                "pNarration": "MOB.BNKG:058/FALUYI TAIWO SOLOMON/MATERIAL:000008210313163414054358023706",
+                "pCredit": "0",
+                "pDebit": "3000",
+                "pBalance": "35836.77"
+            },
+            {
+                "pTransactionDate": "03/15/2021",
+                "pValueDate": "03/13/2021",
+                "pNarration": "MOB.BNKG:058/FALUYI TAIWO SOLOMON/MATERIAL:000008210313163414054358023706:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "35836.02"
+            },
+            {
+                "pTransactionDate": "03/15/2021",
+                "pValueDate": "03/15/2021",
+                "pNarration": "STAMP DUTY - N53600 TXN  AS AT 09-MAR-2021",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "35786.02"
+            },
+            {
+                "pTransactionDate": "03/16/2021",
+                "pValueDate": "03/16/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/WITHDRAW:000008210316181300180501663406:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "35761.02"
+            },
+            {
+                "pTransactionDate": "03/16/2021",
+                "pValueDate": "03/16/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/WITHDRAW:000008210316181300180501663406",
+                "pCredit": "0",
+                "pDebit": "10250",
+                "pBalance": "25511.02"
+            },
+            {
+                "pTransactionDate": "03/16/2021",
+                "pValueDate": "03/16/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/WITHDRAW:000008210316181300180501663406:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "25509.14"
+            },
+            {
+                "pTransactionDate": "03/18/2021",
+                "pValueDate": "03/18/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:1A6EB0B39BC64548B0A463CC98CBAD83",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "25409.14"
+            },
+            {
+                "pTransactionDate": "03/18/2021",
+                "pValueDate": "03/18/2021",
+                "pNarration": "MOB.BNKG:058/AJAYI OLADIMEJI/DSTV YANGA:000008210318184536936159420506:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "25399.14"
+            },
+            {
+                "pTransactionDate": "03/18/2021",
+                "pValueDate": "03/18/2021",
+                "pNarration": "MOB.BNKG:058/AJAYI OLADIMEJI/DSTV YANGA:000008210318184536936159420506",
+                "pCredit": "0",
+                "pDebit": "2600",
+                "pBalance": "22799.14"
+            },
+            {
+                "pTransactionDate": "03/18/2021",
+                "pValueDate": "03/18/2021",
+                "pNarration": "MOB.BNKG:058/AJAYI OLADIMEJI/DSTV YANGA:000008210318184536936159420506:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "22798.39"
+            },
+            {
+                "pTransactionDate": "03/22/2021",
+                "pValueDate": "03/21/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210321154408248039101006:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "22773.39"
+            },
+            {
+                "pTransactionDate": "03/22/2021",
+                "pValueDate": "03/21/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210321154408248039101006",
+                "pCredit": "0",
+                "pDebit": "10100",
+                "pBalance": "12673.39"
+            },
+            {
+                "pTransactionDate": "03/22/2021",
+                "pValueDate": "03/21/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210321154408248039101006:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "12671.51"
+            },
+            {
+                "pTransactionDate": "03/22/2021",
+                "pValueDate": "03/22/2021",
+                "pNarration": "MOB.BNKG:058/AJAYI OLADIMEJI/NEPA:000008210322123406246575642706:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "12661.51"
+            },
+            {
+                "pTransactionDate": "03/22/2021",
+                "pValueDate": "03/22/2021",
+                "pNarration": "MOB.BNKG:058/AJAYI OLADIMEJI/NEPA:000008210322123406246575642706",
+                "pCredit": "0",
+                "pDebit": "5000",
+                "pBalance": "7661.51"
+            },
+            {
+                "pTransactionDate": "03/22/2021",
+                "pValueDate": "03/22/2021",
+                "pNarration": "MOB.BNKG:058/AJAYI OLADIMEJI/NEPA:000008210322123406246575642706:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "7660.76"
+            },
+            {
+                "pTransactionDate": "03/24/2021",
+                "pValueDate": "03/24/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:D8271D42778546A299492B40475ACDB1",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "7560.76"
+            },
+            {
+                "pTransactionDate": "03/24/2021",
+                "pValueDate": "03/24/2021",
+                "pNarration": "MOB.BNKG:057/OLUYEMI EUNICE EMOKPARE/INDOMIE:000008210324193435275928518906:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "7550.76"
+            },
+            {
+                "pTransactionDate": "03/24/2021",
+                "pValueDate": "03/24/2021",
+                "pNarration": "MOB.BNKG:057/OLUYEMI EUNICE EMOKPARE/INDOMIE:000008210324193435275928518906",
+                "pCredit": "0",
+                "pDebit": "2600",
+                "pBalance": "4950.76"
+            },
+            {
+                "pTransactionDate": "03/24/2021",
+                "pValueDate": "03/24/2021",
+                "pNarration": "MOB.BNKG:057/OLUYEMI EUNICE EMOKPARE/INDOMIE:000008210324193435275928518906:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "4950.01"
+            },
+            {
+                "pTransactionDate": "03/29/2021",
+                "pValueDate": "03/28/2021",
+                "pNarration": "MOB-MOBILERECHARGE-AIRTV-08080480691-19501444795367116",
+                "pCredit": "0",
+                "pDebit": "1000",
+                "pBalance": "3950.01"
+            },
+            {
+                "pTransactionDate": "03/29/2021",
+                "pValueDate": "03/29/2021",
+                "pNarration": "MOB.BNKG:981/OKUNEYE, ADERONKE TITILOPE/BIN TRF:000008210329092902942051765306:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "3940.01"
+            },
+            {
+                "pTransactionDate": "03/29/2021",
+                "pValueDate": "03/29/2021",
+                "pNarration": "MOB.BNKG:981/OKUNEYE, ADERONKE TITILOPE/BIN TRF:000008210329092902942051765306",
+                "pCredit": "0",
+                "pDebit": "3500",
+                "pBalance": "440.01"
+            },
+            {
+                "pTransactionDate": "03/29/2021",
+                "pValueDate": "03/29/2021",
+                "pNarration": "MOB.BNKG:981/OKUNEYE, ADERONKE TITILOPE/BIN TRF:000008210329092902942051765306:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "439.26"
+            },
+            {
+                "pTransactionDate": "03/29/2021",
+                "pValueDate": "03/29/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:C22E8F3C19F7432696650A79880F59B3",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "389.26"
+            },
+            {
+                "pTransactionDate": "03/29/2021",
+                "pValueDate": "03/29/2021",
+                "pNarration": "NIBSS:NEBECHI SOCHINEME CHUKWUDUM:TRF/NEBSOCHI/FRM NEBECHI SOCHINEME CHUKWUDUM TO FALUYI:000014210329133442231048403718",
+                "pCredit": "5000",
+                "pDebit": "0",
+                "pBalance": "5389.26"
+            },
+            {
+                "pTransactionDate": "03/29/2021",
+                "pValueDate": "03/29/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/WIRHDRAW:000008210329135036636661359606:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "5379.26"
+            },
+            {
+                "pTransactionDate": "03/29/2021",
+                "pValueDate": "03/29/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/WIRHDRAW:000008210329135036636661359606",
+                "pCredit": "0",
+                "pDebit": "5000",
+                "pBalance": "379.26"
+            },
+            {
+                "pTransactionDate": "03/29/2021",
+                "pValueDate": "03/29/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/WIRHDRAW:000008210329135036636661359606:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "378.51"
+            },
+            {
+                "pTransactionDate": "03/30/2021",
+                "pValueDate": "03/30/2021",
+                "pNarration": "SMS SERVICE CHARGED FOR 27 TRAN(S) : PERIOD APPLIED BTW 25/02/2021 AND 29/03/2021 - 3021857876",
+                "pCredit": "0",
+                "pDebit": "108",
+                "pBalance": "270.51"
+            },
+            {
+                "pTransactionDate": "04/12/2021",
+                "pValueDate": "04/12/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:CE18DE2F22534F18B79AEAC4E43529F3",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "170.51"
+            },
+            {
+                "pTransactionDate": "04/15/2021",
+                "pValueDate": "04/15/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:FE51DDAD15EC4244BE38DEF0CA490F7A",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "120.51"
+            },
+            {
+                "pTransactionDate": "04/16/2021",
+                "pValueDate": "04/16/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:009C78C8777A4F8EADC49CF1600ED9A5",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "20.51"
+            },
+            {
+                "pTransactionDate": "04/19/2021",
+                "pValueDate": "04/17/2021",
+                "pNarration": "NIBSS:KAYODE OLUWASANMI  FALUYI:TRF/UPKEEP/FRM KAYODE OLUWASANMI  FALUYI TO FALUYI:000014210417083659256747316118",
+                "pCredit": "64000",
+                "pDebit": "0",
+                "pBalance": "64020.51"
+            },
+            {
+                "pTransactionDate": "04/19/2021",
+                "pValueDate": "04/17/2021",
+                "pNarration": "MOB.BNKG:981/OGHENENYERHOVWO  URHOBARA/BIN TRF:000008210417084129689369113906:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "63995.51"
+            },
+            {
+                "pTransactionDate": "04/19/2021",
+                "pValueDate": "04/17/2021",
+                "pNarration": "MOB.BNKG:981/OGHENENYERHOVWO  URHOBARA/BIN TRF:000008210417084129689369113906",
+                "pCredit": "0",
+                "pDebit": "14000",
+                "pBalance": "49995.51"
+            },
+            {
+                "pTransactionDate": "04/19/2021",
+                "pValueDate": "04/17/2021",
+                "pNarration": "MOB.BNKG:981/OGHENENYERHOVWO  URHOBARA/BIN TRF:000008210417084129689369113906:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "49993.63"
+            },
+            {
+                "pTransactionDate": "04/19/2021",
+                "pValueDate": "04/17/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:B4E0BA8AA9074CCCBD98B2FB99222754",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "49943.63"
+            },
+            {
+                "pTransactionDate": "04/19/2021",
+                "pValueDate": "04/18/2021",
+                "pNarration": "MOB.BNKG:058/ABIODUN ELIJAH A/UBER:000008210418161629389022347706:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "49933.63"
+            },
+            {
+                "pTransactionDate": "04/19/2021",
+                "pValueDate": "04/18/2021",
+                "pNarration": "MOB.BNKG:058/ABIODUN ELIJAH A/UBER:000008210418161629389022347706",
+                "pCredit": "0",
+                "pDebit": "1400",
+                "pBalance": "48533.63"
+            },
+            {
+                "pTransactionDate": "04/19/2021",
+                "pValueDate": "04/18/2021",
+                "pNarration": "MOB.BNKG:058/ABIODUN ELIJAH A/UBER:000008210418161629389022347706:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "48532.88"
+            },
+            {
+                "pTransactionDate": "04/19/2021",
+                "pValueDate": "04/19/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210419070243563691029906:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "48522.88"
+            },
+            {
+                "pTransactionDate": "04/19/2021",
+                "pValueDate": "04/19/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210419070243563691029906",
+                "pCredit": "0",
+                "pDebit": "3000",
+                "pBalance": "45522.88"
+            },
+            {
+                "pTransactionDate": "04/19/2021",
+                "pValueDate": "04/19/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210419070243563691029906:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "45522.13"
+            },
+            {
+                "pTransactionDate": "04/20/2021",
+                "pValueDate": "04/20/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/FOOD:000008210420141639999676724606:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "45497.13"
+            },
+            {
+                "pTransactionDate": "04/20/2021",
+                "pValueDate": "04/20/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/FOOD:000008210420141639999676724606",
+                "pCredit": "0",
+                "pDebit": "10000",
+                "pBalance": "35497.13"
+            },
+            {
+                "pTransactionDate": "04/20/2021",
+                "pValueDate": "04/20/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/FOOD:000008210420141639999676724606:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "35495.25"
+            },
+            {
+                "pTransactionDate": "04/20/2021",
+                "pValueDate": "04/20/2021",
+                "pNarration": "REV:FOOD:000008210420141639999676724606",
+                "pCredit": "0",
+                "pDebit": "-10000",
+                "pBalance": "45495.25"
+            },
+            {
+                "pTransactionDate": "04/20/2021",
+                "pValueDate": "04/20/2021",
+                "pNarration": "REV:FOOD:000008210420141639999676724606",
+                "pCredit": "0",
+                "pDebit": "-25",
+                "pBalance": "45520.25"
+            },
+            {
+                "pTransactionDate": "04/20/2021",
+                "pValueDate": "04/20/2021",
+                "pNarration": "REV:FOOD:000008210420141639999676724606",
+                "pCredit": "0",
+                "pDebit": "-1.88",
+                "pBalance": "45522.13"
+            },
+            {
+                "pTransactionDate": "04/20/2021",
+                "pValueDate": "04/20/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:779203E011B54B928870EA98EEE7D339",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "45472.13"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/22/2021",
+                "pNarration": "MOB.BNKG:011/OLAWUNMI ADEBAYO ABIODUN/TRF:000008210422222033833105931006:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "45447.13"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/22/2021",
+                "pNarration": "MOB.BNKG:011/OLAWUNMI ADEBAYO ABIODUN/TRF:000008210422222033833105931006",
+                "pCredit": "0",
+                "pDebit": "5100",
+                "pBalance": "40347.13"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/22/2021",
+                "pNarration": "MOB.BNKG:011/OLAWUNMI ADEBAYO ABIODUN/TRF:000008210422222033833105931006:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "40345.25"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/23/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:EF32985B10EB4189BFD29E30CD9C48F1",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "40295.25"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/23/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:2DA1ED36493B4D4AB3B1FA9774BF7B93",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "40245.25"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/23/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/TRF:000008210423161923563391583006:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "40220.25"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/23/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/TRF:000008210423161923563391583006",
+                "pCredit": "0",
+                "pDebit": "10000",
+                "pBalance": "30220.25"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/23/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/TRF:000008210423161923563391583006:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "30218.37"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/23/2021",
+                "pNarration": "REV:TRF:000008210423161923563391583006",
+                "pCredit": "0",
+                "pDebit": "-10000",
+                "pBalance": "40218.37"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/23/2021",
+                "pNarration": "REV:TRF:000008210423161923563391583006",
+                "pCredit": "0",
+                "pDebit": "-25",
+                "pBalance": "40243.37"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/23/2021",
+                "pNarration": "REV:TRF:000008210423161923563391583006",
+                "pCredit": "0",
+                "pDebit": "-1.88",
+                "pBalance": "40245.25"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/23/2021",
+                "pNarration": "MOB.BNKG:058/FALUYI TAIWO SOLOMON/SIS TUTU:000008210423193523323639517906:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "40235.25"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/23/2021",
+                "pNarration": "MOB.BNKG:058/FALUYI TAIWO SOLOMON/SIS TUTU:000008210423193523323639517906",
+                "pCredit": "0",
+                "pDebit": "5000",
+                "pBalance": "35235.25"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/23/2021",
+                "pNarration": "MOB.BNKG:058/FALUYI TAIWO SOLOMON/SIS TUTU:000008210423193523323639517906:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "35234.5"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/23/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/REPAY:000008210423193644404209233706:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "35209.5"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/23/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/REPAY:000008210423193644404209233706",
+                "pCredit": "0",
+                "pDebit": "10000",
+                "pBalance": "25209.5"
+            },
+            {
+                "pTransactionDate": "04/23/2021",
+                "pValueDate": "04/23/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/REPAY:000008210423193644404209233706:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "25207.62"
+            },
+            {
+                "pTransactionDate": "04/26/2021",
+                "pValueDate": "04/24/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:FDF864B97FAC45709D071BBD3691AF51",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "25157.62"
+            },
+            {
+                "pTransactionDate": "04/26/2021",
+                "pValueDate": "04/24/2021",
+                "pNarration": "MOB.BNKG:058/OMOTOSHO  IFEOLUWA OLUWASEUN/TRF:000008210424124147907814788306:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "25132.62"
+            },
+            {
+                "pTransactionDate": "04/26/2021",
+                "pValueDate": "04/24/2021",
+                "pNarration": "MOB.BNKG:058/OMOTOSHO  IFEOLUWA OLUWASEUN/TRF:000008210424124147907814788306",
+                "pCredit": "0",
+                "pDebit": "10000",
+                "pBalance": "15132.62"
+            },
+            {
+                "pTransactionDate": "04/26/2021",
+                "pValueDate": "04/24/2021",
+                "pNarration": "MOB.BNKG:058/OMOTOSHO  IFEOLUWA OLUWASEUN/TRF:000008210424124147907814788306:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "15130.74"
+            },
+            {
+                "pTransactionDate": "04/26/2021",
+                "pValueDate": "04/25/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:3F11ED30A65A4249B195B9D2E2CD12CF",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "15080.74"
+            },
+            {
+                "pTransactionDate": "04/26/2021",
+                "pValueDate": "04/25/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:534F082A5AE04E2A814D343446CC0211",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "14980.74"
+            },
+            {
+                "pTransactionDate": "04/26/2021",
+                "pValueDate": "04/26/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:DCE03C40B9544FC69EFE2B6C58E8AC5F",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "14930.74"
+            },
+            {
+                "pTransactionDate": "04/26/2021",
+                "pValueDate": "04/26/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:C601EC2ECFB343EDB5696077591DDBEB",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "14830.74"
+            },
+            {
+                "pTransactionDate": "04/26/2021",
+                "pValueDate": "04/26/2021",
+                "pNarration": "STAMP DUTY - N64000 TXN  AS AT 17-APR-2021",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "14780.74"
+            },
+            {
+                "pTransactionDate": "04/26/2021",
+                "pValueDate": "04/26/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:ED23BEEEE9F94E9987885A1858CD9835",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "14680.74"
+            },
+            {
+                "pTransactionDate": "04/27/2021",
+                "pValueDate": "04/27/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:DCFC14A0A6904D74AAEEF7A96A9A7DEB",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "14630.74"
+            },
+            {
+                "pTransactionDate": "04/27/2021",
+                "pValueDate": "04/27/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210427180054254261107706:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "14605.74"
+            },
+            {
+                "pTransactionDate": "04/27/2021",
+                "pValueDate": "04/27/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210427180054254261107706",
+                "pCredit": "0",
+                "pDebit": "5100",
+                "pBalance": "9505.74"
+            },
+            {
+                "pTransactionDate": "04/27/2021",
+                "pValueDate": "04/27/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210427180054254261107706:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "9503.86"
+            },
+            {
+                "pTransactionDate": "04/28/2021",
+                "pValueDate": "04/28/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:877DF64450BF46CDA0666F87D6D69C59",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "9453.86"
+            },
+            {
+                "pTransactionDate": "04/28/2021",
+                "pValueDate": "04/28/2021",
+                "pNarration": "MOB.BNKG:058/OBEMBE ADEWALE ADESANYA/TRF:000008210428190548548934027706:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "9428.86"
+            },
+            {
+                "pTransactionDate": "04/28/2021",
+                "pValueDate": "04/28/2021",
+                "pNarration": "MOB.BNKG:058/OBEMBE ADEWALE ADESANYA/TRF:000008210428190548548934027706",
+                "pCredit": "0",
+                "pDebit": "5100",
+                "pBalance": "4328.86"
+            },
+            {
+                "pTransactionDate": "04/28/2021",
+                "pValueDate": "04/28/2021",
+                "pNarration": "MOB.BNKG:058/OBEMBE ADEWALE ADESANYA/TRF:000008210428190548548934027706:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "4326.98"
+            },
+            {
+                "pTransactionDate": "04/29/2021",
+                "pValueDate": "04/29/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:F01ED14945E64051BBE033ECE68A0F2C",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "4226.98"
+            },
+            {
+                "pTransactionDate": "04/29/2021",
+                "pValueDate": "04/29/2021",
+                "pNarration": "SMS SERVICE CHARGED FOR 27 TRAN(S) : PERIOD APPLIED BTW 30/03/2021 AND 28/04/2021 - 3021857876",
+                "pCredit": "0",
+                "pDebit": "108",
+                "pBalance": "4118.98"
+            },
+            {
+                "pTransactionDate": "04/29/2021",
+                "pValueDate": "04/29/2021",
+                "pNarration": "SMS SERVICE CHARGED FOR 33 TRAN(S) : PERIOD APPLIED BTW 30/03/2021 AND 28/04/2021 - 3021857876",
+                "pCredit": "0",
+                "pDebit": "132",
+                "pBalance": "3986.98"
+            },
+            {
+                "pTransactionDate": "04/29/2021",
+                "pValueDate": "04/29/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:7AA1EB3042464614A0E9CC4EEB786CBF",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "3936.98"
+            },
+            {
+                "pTransactionDate": "04/29/2021",
+                "pValueDate": "04/29/2021",
+                "pNarration": "SMS SERVICE CHARGED FOR 27 TRAN(S) : PERIOD APPLIED BTW 30/03/2021 AND 28/04/2021 - 3021857876",
+                "pCredit": "108",
+                "pDebit": "0",
+                "pBalance": "4044.98"
+            },
+            {
+                "pTransactionDate": "04/30/2021",
+                "pValueDate": "04/30/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210430182441881932002506:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "4034.98"
+            },
+            {
+                "pTransactionDate": "04/30/2021",
+                "pValueDate": "04/30/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210430182441881932002506",
+                "pCredit": "0",
+                "pDebit": "4000",
+                "pBalance": "34.98"
+            },
+            {
+                "pTransactionDate": "04/30/2021",
+                "pValueDate": "04/30/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210430182441881932002506:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "34.23"
+            },
+            {
+                "pTransactionDate": "05/04/2021",
+                "pValueDate": "05/02/2021",
+                "pNarration": "NIBSS:KAYODE OLUWASANMI  FALUYI:TRF/UPKEEP TRF/FRM KAYODE OLUWASANMI  FALUYI TO FALUYI:000014210502071538249838974985",
+                "pCredit": "100000",
+                "pDebit": "0",
+                "pBalance": "100034.23"
+            },
+            {
+                "pTransactionDate": "05/04/2021",
+                "pValueDate": "05/03/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210503115347627659669906:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "100009.23"
+            },
+            {
+                "pTransactionDate": "05/04/2021",
+                "pValueDate": "05/03/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210503115347627659669906",
+                "pCredit": "0",
+                "pDebit": "6500",
+                "pBalance": "93509.23"
+            },
+            {
+                "pTransactionDate": "05/04/2021",
+                "pValueDate": "05/03/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210503115347627659669906:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "93507.35"
+            },
+            {
+                "pTransactionDate": "05/04/2021",
+                "pValueDate": "05/03/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:10C0012C0BF74320BC61BD61EE6BB671",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "93407.35"
+            },
+            {
+                "pTransactionDate": "05/05/2021",
+                "pValueDate": "05/05/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:A80637E694994F56A13AF97920B0DE55",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "93357.35"
+            },
+            {
+                "pTransactionDate": "05/05/2021",
+                "pValueDate": "05/05/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:7ABA34C560234E33A85FA8DFAC62420E",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "93257.35"
+            },
+            {
+                "pTransactionDate": "05/05/2021",
+                "pValueDate": "05/05/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/ALL MONEY:000008210505165921761433854206:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "93232.35"
+            },
+            {
+                "pTransactionDate": "05/05/2021",
+                "pValueDate": "05/05/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/ALL MONEY:000008210505165921761433854206",
+                "pCredit": "0",
+                "pDebit": "20000",
+                "pBalance": "73232.35"
+            },
+            {
+                "pTransactionDate": "05/05/2021",
+                "pValueDate": "05/05/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/ALL MONEY:000008210505165921761433854206:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "73230.47"
+            },
+            {
+                "pTransactionDate": "05/06/2021",
+                "pValueDate": "05/06/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:C140B91D98194A008B0C2F39D66C0922",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "73180.47"
+            },
+            {
+                "pTransactionDate": "05/07/2021",
+                "pValueDate": "05/07/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:E03B2BA96E8647B2AC0E0767E6A8FC0E",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "73080.47"
+            },
+            {
+                "pTransactionDate": "05/07/2021",
+                "pValueDate": "05/07/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:29BEA43727A64ECEA4DAE5F5CDED75BD",
+                "pCredit": "0",
+                "pDebit": "200",
+                "pBalance": "72880.47"
+            },
+            {
+                "pTransactionDate": "05/07/2021",
+                "pValueDate": "05/07/2021",
+                "pNarration": "MOB-MOBILERECHARGE-MTNV-09037658749-19502802011784602",
+                "pCredit": "0",
+                "pDebit": "200",
+                "pBalance": "72680.47"
+            },
+            {
+                "pTransactionDate": "05/10/2021",
+                "pValueDate": "05/09/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:76CD96CD97554462B665C6B2AA3D9E0A",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "72630.47"
+            },
+            {
+                "pTransactionDate": "05/10/2021",
+                "pValueDate": "05/10/2021",
+                "pNarration": "STAMP DUTY - N100000 TXN  AS AT 02-MAY-2021",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "72580.47"
+            },
+            {
+                "pTransactionDate": "05/10/2021",
+                "pValueDate": "05/10/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:8872FA72B7384F548CAAAA179B8CCD5A",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "72480.47"
+            },
+            {
+                "pTransactionDate": "05/11/2021",
+                "pValueDate": "05/11/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210511064738458508092906:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "72455.47"
+            },
+            {
+                "pTransactionDate": "05/11/2021",
+                "pValueDate": "05/11/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210511064738458508092906",
+                "pCredit": "0",
+                "pDebit": "9500",
+                "pBalance": "62955.47"
+            },
+            {
+                "pTransactionDate": "05/11/2021",
+                "pValueDate": "05/11/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210511064738458508092906:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "62953.59"
+            },
+            {
+                "pTransactionDate": "05/11/2021",
+                "pValueDate": "05/11/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/CAKE N FOOD:000008210511070925765214669206:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "62928.59"
+            },
+            {
+                "pTransactionDate": "05/11/2021",
+                "pValueDate": "05/11/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/CAKE N FOOD:000008210511070925765214669206",
+                "pCredit": "0",
+                "pDebit": "12500",
+                "pBalance": "50428.59"
+            },
+            {
+                "pTransactionDate": "05/11/2021",
+                "pValueDate": "05/11/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/CAKE N FOOD:000008210511070925765214669206:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "50426.71"
+            },
+            {
+                "pTransactionDate": "05/11/2021",
+                "pValueDate": "05/11/2021",
+                "pNarration": "MOB.BNKG:214/OKOLIE GODWIN/PART PAINT:000008210511140339619227728606:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "50401.71"
+            },
+            {
+                "pTransactionDate": "05/11/2021",
+                "pValueDate": "05/11/2021",
+                "pNarration": "MOB.BNKG:214/OKOLIE GODWIN/PART PAINT:000008210511140339619227728606",
+                "pCredit": "0",
+                "pDebit": "40000",
+                "pBalance": "10401.71"
+            },
+            {
+                "pTransactionDate": "05/11/2021",
+                "pValueDate": "05/11/2021",
+                "pNarration": "MOB.BNKG:214/OKOLIE GODWIN/PART PAINT:000008210511140339619227728606:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "10399.83"
+            },
+            {
+                "pTransactionDate": "05/11/2021",
+                "pValueDate": "05/11/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:CAAD6969273C440E9F778EED7578B173",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "10299.83"
+            },
+            {
+                "pTransactionDate": "05/14/2021",
+                "pValueDate": "05/12/2021",
+                "pNarration": "NIBSS:KAYODE OLUWASANMI  FALUYI:TRF/TRF/FRM KAYODE OLUWASANMI  FALUYI TO FALUYI:000014210512095704274771504150",
+                "pCredit": "100000",
+                "pDebit": "0",
+                "pBalance": "110299.83"
+            },
+            {
+                "pTransactionDate": "05/14/2021",
+                "pValueDate": "05/12/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:E76D80429A444F40A204441FF17C9633",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "110199.83"
+            },
+            {
+                "pTransactionDate": "05/14/2021",
+                "pValueDate": "05/12/2021",
+                "pNarration": "MOB.BNKG:214/OKOLIE GODWIN/PAINT:000008210512135216336036035806:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "110174.83"
+            },
+            {
+                "pTransactionDate": "05/14/2021",
+                "pValueDate": "05/12/2021",
+                "pNarration": "MOB.BNKG:214/OKOLIE GODWIN/PAINT:000008210512135216336036035806",
+                "pCredit": "0",
+                "pDebit": "20000",
+                "pBalance": "90174.83"
+            },
+            {
+                "pTransactionDate": "05/14/2021",
+                "pValueDate": "05/12/2021",
+                "pNarration": "MOB.BNKG:214/OKOLIE GODWIN/PAINT:000008210512135216336036035806:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "90172.95"
+            },
+            {
+                "pTransactionDate": "05/14/2021",
+                "pValueDate": "05/13/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:9E62316FE1B04430AF87F7D55248D88E",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "90072.95"
+            },
+            {
+                "pTransactionDate": "05/14/2021",
+                "pValueDate": "05/14/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:3C74FBC3E00D4690AAEA0D83B2C70448",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "89972.95"
+            },
+            {
+                "pTransactionDate": "05/14/2021",
+                "pValueDate": "05/14/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:6F26BC28D6904518B092DA492BB1BFB8",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "89872.95"
+            },
+            {
+                "pTransactionDate": "05/17/2021",
+                "pValueDate": "05/15/2021",
+                "pNarration": "MOB.BNKG:058/FALUYI OLUWADUNMININU DEBORAH/UPKEEP:000008210515090436276641784906:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "89862.95"
+            },
+            {
+                "pTransactionDate": "05/17/2021",
+                "pValueDate": "05/15/2021",
+                "pNarration": "MOB.BNKG:058/FALUYI OLUWADUNMININU DEBORAH/UPKEEP:000008210515090436276641784906",
+                "pCredit": "0",
+                "pDebit": "5000",
+                "pBalance": "84862.95"
+            },
+            {
+                "pTransactionDate": "05/17/2021",
+                "pValueDate": "05/15/2021",
+                "pNarration": "MOB.BNKG:058/FALUYI OLUWADUNMININU DEBORAH/UPKEEP:000008210515090436276641784906:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "84862.2"
+            },
+            {
+                "pTransactionDate": "05/17/2021",
+                "pValueDate": "05/15/2021",
+                "pNarration": "MOB.BNKG:058/OBEMBE ADEWALE ADESANYA/TRF:000008210515131936576471308006:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "84837.2"
+            },
+            {
+                "pTransactionDate": "05/17/2021",
+                "pValueDate": "05/15/2021",
+                "pNarration": "MOB.BNKG:058/OBEMBE ADEWALE ADESANYA/TRF:000008210515131936576471308006",
+                "pCredit": "0",
+                "pDebit": "10200",
+                "pBalance": "74637.2"
+            },
+            {
+                "pTransactionDate": "05/17/2021",
+                "pValueDate": "05/15/2021",
+                "pNarration": "MOB.BNKG:058/OBEMBE ADEWALE ADESANYA/TRF:000008210515131936576471308006:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "74635.32"
+            },
+            {
+                "pTransactionDate": "05/17/2021",
+                "pValueDate": "05/15/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/DRINKS AND OTHERS:000008210515173234754960466206:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "74610.32"
+            },
+            {
+                "pTransactionDate": "05/17/2021",
+                "pValueDate": "05/15/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/DRINKS AND OTHERS:000008210515173234754960466206",
+                "pCredit": "0",
+                "pDebit": "24000",
+                "pBalance": "50610.32"
+            },
+            {
+                "pTransactionDate": "05/17/2021",
+                "pValueDate": "05/15/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/DRINKS AND OTHERS:000008210515173234754960466206:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "50608.44"
+            },
+            {
+                "pTransactionDate": "05/17/2021",
+                "pValueDate": "05/15/2021",
+                "pNarration": "MOB:PREG:FT FROM FALUYI KAYODE OLUWASANMI TO ECSTASY PHARMACY LIMITED:MOB4FB5C0AF218B494BBF3AABEEBEB1C609",
+                "pCredit": "0",
+                "pDebit": "6000",
+                "pBalance": "44608.44"
+            },
+            {
+                "pTransactionDate": "05/17/2021",
+                "pValueDate": "05/17/2021",
+                "pNarration": "STAMP DUTY - N100000 TXN  AS AT 12-MAY-2021",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "44558.44"
+            },
+            {
+                "pTransactionDate": "05/18/2021",
+                "pValueDate": "05/18/2021",
+                "pNarration": "MOB.BNKG:044/AYODELE RUFUS FALUYI/BURIAL:000008210518093313193559342006:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "44548.44"
+            },
+            {
+                "pTransactionDate": "05/18/2021",
+                "pValueDate": "05/18/2021",
+                "pNarration": "MOB.BNKG:044/AYODELE RUFUS FALUYI/BURIAL:000008210518093313193559342006",
+                "pCredit": "0",
+                "pDebit": "5000",
+                "pBalance": "39548.44"
+            },
+            {
+                "pTransactionDate": "05/18/2021",
+                "pValueDate": "05/18/2021",
+                "pNarration": "MOB.BNKG:044/AYODELE RUFUS FALUYI/BURIAL:000008210518093313193559342006:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "39547.69"
+            },
+            {
+                "pTransactionDate": "05/18/2021",
+                "pValueDate": "05/18/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:B5D88DE3B6D140AFA8B1FCF21D1DE59C",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "39447.69"
+            },
+            {
+                "pTransactionDate": "05/18/2021",
+                "pValueDate": "05/18/2021",
+                "pNarration": "MOB.BNKG:058/AJAYI OLADIMEJI/PHCN AND DSTV:000008210518174013413274774606:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "39422.69"
+            },
+            {
+                "pTransactionDate": "05/18/2021",
+                "pValueDate": "05/18/2021",
+                "pNarration": "MOB.BNKG:058/AJAYI OLADIMEJI/PHCN AND DSTV:000008210518174013413274774606",
+                "pCredit": "0",
+                "pDebit": "11650",
+                "pBalance": "27772.69"
+            },
+            {
+                "pTransactionDate": "05/18/2021",
+                "pValueDate": "05/18/2021",
+                "pNarration": "MOB.BNKG:058/AJAYI OLADIMEJI/PHCN AND DSTV:000008210518174013413274774606:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "27770.81"
+            },
+            {
+                "pTransactionDate": "05/24/2021",
+                "pValueDate": "05/22/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:9801E543816A4EC99070C8B57DB91ACF",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "27670.81"
+            },
+            {
+                "pTransactionDate": "05/24/2021",
+                "pValueDate": "05/22/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:30C8E03DE5C74C9D89FA5D78E19D58A9",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "27570.81"
+            },
+            {
+                "pTransactionDate": "05/24/2021",
+                "pValueDate": "05/24/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:5DF015BDAED74DDC96418996CDD8B844",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "27470.81"
+            },
+            {
+                "pTransactionDate": "05/25/2021",
+                "pValueDate": "05/25/2021",
+                "pNarration": "3IPG0001 WHOGOH_T1144716194I1422 0             LA NG 209915  811322209915",
+                "pCredit": "0",
+                "pDebit": "11269.04",
+                "pBalance": "16201.77"
+            },
+            {
+                "pTransactionDate": "05/25/2021",
+                "pValueDate": "05/25/2021",
+                "pNarration": "NIBSS:KAYODE OLUWASANMI  FALUYI:TRFTRFFRMKAYODEOLUWASANMIFALUYITOFALUYIKAYODEOLUWASANMI:000014210525152505259222476478",
+                "pCredit": "50000",
+                "pDebit": "0",
+                "pBalance": "66201.77"
+            },
+            {
+                "pTransactionDate": "05/25/2021",
+                "pValueDate": "05/25/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/TRF FOOD:000008210525162745865026605706:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "66176.77"
+            },
+            {
+                "pTransactionDate": "05/25/2021",
+                "pValueDate": "05/25/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/TRF FOOD:000008210525162745865026605706",
+                "pCredit": "0",
+                "pDebit": "21000",
+                "pBalance": "45176.77"
+            },
+            {
+                "pTransactionDate": "05/25/2021",
+                "pValueDate": "05/25/2021",
+                "pNarration": "MOB.BNKG:057/VICTORIA TOPE OLAOYE/TRF FOOD:000008210525162745865026605706:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "45174.89"
+            },
+            {
+                "pTransactionDate": "05/26/2021",
+                "pValueDate": "05/26/2021",
+                "pNarration": "MOB.BNKG:011/AKINTOYE OLUMIDE JOHN/LIGHT:000008210526132643403077408306:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "45164.89"
+            },
+            {
+                "pTransactionDate": "05/26/2021",
+                "pValueDate": "05/26/2021",
+                "pNarration": "MOB.BNKG:011/AKINTOYE OLUMIDE JOHN/LIGHT:000008210526132643403077408306",
+                "pCredit": "0",
+                "pDebit": "1500",
+                "pBalance": "43664.89"
+            },
+            {
+                "pTransactionDate": "05/26/2021",
+                "pValueDate": "05/26/2021",
+                "pNarration": "MOB.BNKG:011/AKINTOYE OLUMIDE JOHN/LIGHT:000008210526132643403077408306:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "43664.14"
+            },
+            {
+                "pTransactionDate": "05/26/2021",
+                "pValueDate": "05/26/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK UPKEEP:000008210526133022622981169706:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "43654.14"
+            },
+            {
+                "pTransactionDate": "05/26/2021",
+                "pValueDate": "05/26/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK UPKEEP:000008210526133022622981169706",
+                "pCredit": "0",
+                "pDebit": "1550",
+                "pBalance": "42104.14"
+            },
+            {
+                "pTransactionDate": "05/26/2021",
+                "pValueDate": "05/26/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK UPKEEP:000008210526133022622981169706:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "42103.39"
+            },
+            {
+                "pTransactionDate": "05/26/2021",
+                "pValueDate": "05/26/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/PROV:000008210526174741061087291006:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "42078.39"
+            },
+            {
+                "pTransactionDate": "05/26/2021",
+                "pValueDate": "05/26/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/PROV:000008210526174741061087291006",
+                "pCredit": "0",
+                "pDebit": "25000",
+                "pBalance": "17078.39"
+            },
+            {
+                "pTransactionDate": "05/26/2021",
+                "pValueDate": "05/26/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/PROV:000008210526174741061087291006:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "17076.51"
+            },
+            {
+                "pTransactionDate": "05/27/2021",
+                "pValueDate": "05/27/2021",
+                "pNarration": "SMS SERVICE CHARGED FOR 41 TRAN(S) : PERIOD APPLIED BTW 29/04/2021 AND 26/05/2021 - 3021857876",
+                "pCredit": "0",
+                "pDebit": "164",
+                "pBalance": "16912.51"
+            },
+            {
+                "pTransactionDate": "05/27/2021",
+                "pValueDate": "05/27/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:F19B38559C9441158E88965F63C4B499",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "16812.51"
+            },
+            {
+                "pTransactionDate": "05/28/2021",
+                "pValueDate": "05/28/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:38C46F10418741BEB81C1198AD4D6554",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "16762.51"
+            },
+            {
+                "pTransactionDate": "05/31/2021",
+                "pValueDate": "05/30/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:0552101056414BE9A39353CB832B1333",
+                "pCredit": "0",
+                "pDebit": "5000",
+                "pBalance": "11762.51"
+            },
+            {
+                "pTransactionDate": "05/31/2021",
+                "pValueDate": "05/31/2021",
+                "pNarration": "DEBIT CARD QUARTERLY FEE + VAT MAY 2021-3021857876(506106*********6259)",
+                "pCredit": "0",
+                "pDebit": "53.75",
+                "pBalance": "11708.76"
+            },
+            {
+                "pTransactionDate": "05/31/2021",
+                "pValueDate": "05/31/2021",
+                "pNarration": "STAMP DUTY - N50000 TXN  AS AT 25-MAY-2021",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "11658.76"
+            },
+            {
+                "pTransactionDate": "06/02/2021",
+                "pValueDate": "06/02/2021",
+                "pNarration": "MOB.BNKG:221/CAROLINE TEMILOLUWA ODERONKE/BOLA WEDDING:000008210602131525525194436507:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "11648.76"
+            },
+            {
+                "pTransactionDate": "06/02/2021",
+                "pValueDate": "06/02/2021",
+                "pNarration": "MOB.BNKG:221/CAROLINE TEMILOLUWA ODERONKE/BOLA WEDDING:000008210602131525525194436507",
+                "pCredit": "0",
+                "pDebit": "3000",
+                "pBalance": "8648.76"
+            },
+            {
+                "pTransactionDate": "06/02/2021",
+                "pValueDate": "06/02/2021",
+                "pNarration": "MOB.BNKG:221/CAROLINE TEMILOLUWA ODERONKE/BOLA WEDDING:000008210602131525525194436507:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "8648.01"
+            },
+            {
+                "pTransactionDate": "06/07/2021",
+                "pValueDate": "06/05/2021",
+                "pNarration": "MOB.BNKG:011/KOLAWOLE ADEKOLA IDOWU/DSTV:000008210605200330210069665206:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "8638.01"
+            },
+            {
+                "pTransactionDate": "06/07/2021",
+                "pValueDate": "06/05/2021",
+                "pNarration": "MOB.BNKG:011/KOLAWOLE ADEKOLA IDOWU/DSTV:000008210605200330210069665206",
+                "pCredit": "0",
+                "pDebit": "1500",
+                "pBalance": "7138.01"
+            },
+            {
+                "pTransactionDate": "06/07/2021",
+                "pValueDate": "06/05/2021",
+                "pNarration": "MOB.BNKG:011/KOLAWOLE ADEKOLA IDOWU/DSTV:000008210605200330210069665206:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "7137.26"
+            },
+            {
+                "pTransactionDate": "06/07/2021",
+                "pValueDate": "06/07/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK:000008210607104344424860255607:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "7127.26"
+            },
+            {
+                "pTransactionDate": "06/07/2021",
+                "pValueDate": "06/07/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK:000008210607104344424860255607",
+                "pCredit": "0",
+                "pDebit": "2000",
+                "pBalance": "5127.26"
+            },
+            {
+                "pTransactionDate": "06/07/2021",
+                "pValueDate": "06/07/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK:000008210607104344424860255607:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "5126.51"
+            },
+            {
+                "pTransactionDate": "06/08/2021",
+                "pValueDate": "06/08/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:6BA07B08829C4AF6BACFAF438CE2F040",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "5026.51"
+            },
+            {
+                "pTransactionDate": "06/11/2021",
+                "pValueDate": "06/11/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:041A9817EE7C4EB6AC03318C9059BB79",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "4926.51"
+            },
+            {
+                "pTransactionDate": "06/15/2021",
+                "pValueDate": "06/13/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:C06792AEF0624450974AF672D6E00516",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "4826.51"
+            },
+            {
+                "pTransactionDate": "06/15/2021",
+                "pValueDate": "06/14/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK:000008210614131139099670859006:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "4816.51"
+            },
+            {
+                "pTransactionDate": "06/15/2021",
+                "pValueDate": "06/14/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK:000008210614131139099670859006",
+                "pCredit": "0",
+                "pDebit": "2000",
+                "pBalance": "2816.51"
+            },
+            {
+                "pTransactionDate": "06/15/2021",
+                "pValueDate": "06/14/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK:000008210614131139099670859006:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "2815.76"
+            },
+            {
+                "pTransactionDate": "06/15/2021",
+                "pValueDate": "06/14/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:601ACA283C6A4E008B89B702919CC7C2",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "2715.76"
+            },
+            {
+                "pTransactionDate": "06/16/2021",
+                "pValueDate": "06/16/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:1A4E82748D8A4848A08DDD0A667F1FD9",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "2615.76"
+            },
+            {
+                "pTransactionDate": "06/17/2021",
+                "pValueDate": "06/17/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:44622390D3FB458396979051F687DF1D",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "2515.76"
+            },
+            {
+                "pTransactionDate": "06/22/2021",
+                "pValueDate": "06/22/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK:000008210622054641601804800007:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "2505.76"
+            },
+            {
+                "pTransactionDate": "06/22/2021",
+                "pValueDate": "06/22/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK:000008210622054641601804800007",
+                "pCredit": "0",
+                "pDebit": "2000",
+                "pBalance": "505.76"
+            },
+            {
+                "pTransactionDate": "06/22/2021",
+                "pValueDate": "06/22/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK:000008210622054641601804800007:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "505.01"
+            },
+            {
+                "pTransactionDate": "06/22/2021",
+                "pValueDate": "06/22/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:65E5D7B81859420DA7207F80BCA77921",
+                "pCredit": "0",
+                "pDebit": "200",
+                "pBalance": "305.01"
+            },
+            {
+                "pTransactionDate": "06/24/2021",
+                "pValueDate": "06/24/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:8C97B6676A664ADFA65921B13FAC94D2",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "255.01"
+            },
+            {
+                "pTransactionDate": "06/25/2021",
+                "pValueDate": "06/25/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:FA12FEC5D92C4F72AF38DD076F698E73",
+                "pCredit": "0",
+                "pDebit": "100",
+                "pBalance": "155.01"
+            },
+            {
+                "pTransactionDate": "06/28/2021",
+                "pValueDate": "06/26/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:966DC0E24A8D4B9F8C5B297595C13425",
+                "pCredit": "0",
+                "pDebit": "50",
+                "pBalance": "105.01"
+            },
+            {
+                "pTransactionDate": "06/30/2021",
+                "pValueDate": "06/30/2021",
+                "pNarration": "SMS SERVICE CHARGED FOR 18 TRAN(S) : PERIOD APPLIED BTW 27/05/2021 AND 28/06/2021 - 3021857876",
+                "pCredit": "0",
+                "pDebit": "72",
+                "pBalance": "33.01"
+            },
+            {
+                "pTransactionDate": "07/01/2021",
+                "pValueDate": "07/01/2021",
+                "pNarration": "SWITCHIT 000031001019;NXG :TRFKE EPSAFEFRMKAYO DE OL 044058  000031001019",
+                "pCredit": "150000",
+                "pDebit": "0",
+                "pBalance": "150033.01"
+            },
+            {
+                "pTransactionDate": "07/19/2021",
+                "pValueDate": "07/19/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK:000008210719162328608643789607:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "150023.01"
+            },
+            {
+                "pTransactionDate": "07/19/2021",
+                "pValueDate": "07/19/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK:000008210719162328608643789607",
+                "pCredit": "0",
+                "pDebit": "2000",
+                "pBalance": "148023.01"
+            },
+            {
+                "pTransactionDate": "07/19/2021",
+                "pValueDate": "07/19/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK:000008210719162328608643789607:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "148022.26"
+            },
+            {
+                "pTransactionDate": "07/22/2021",
+                "pValueDate": "07/21/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:AF8A92C4E7DA40DFB6B6D990B164F2D6",
+                "pCredit": "0",
+                "pDebit": "400",
+                "pBalance": "147622.26"
+            },
+            {
+                "pTransactionDate": "07/22/2021",
+                "pValueDate": "07/21/2021",
+                "pNarration": "USSD  AIRTIME :07030287311: MTN:C8470DB5709049519DDA8C441B847B31",
+                "pCredit": "0",
+                "pDebit": "400",
+                "pBalance": "147222.26"
+            },
+            {
+                "pTransactionDate": "07/22/2021",
+                "pValueDate": "07/22/2021",
+                "pNarration": "MOB.BNKG:058/GOKEAZEEZOPEYEMI VICTORIA/TRF:000008210722182344024500353907:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "147197.26"
+            },
+            {
+                "pTransactionDate": "07/22/2021",
+                "pValueDate": "07/22/2021",
+                "pNarration": "MOB.BNKG:058/GOKEAZEEZOPEYEMI VICTORIA/TRF:000008210722182344024500353907",
+                "pCredit": "0",
+                "pDebit": "10200",
+                "pBalance": "136997.26"
+            },
+            {
+                "pTransactionDate": "07/22/2021",
+                "pValueDate": "07/22/2021",
+                "pNarration": "MOB.BNKG:058/GOKEAZEEZOPEYEMI VICTORIA/TRF:000008210722182344024500353907:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "136995.38"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:033/BARNABAS CHUKWUEMEKA AGBASIERE/CHARGER:000008210726102755075577658507:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "136985.38"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:033/BARNABAS CHUKWUEMEKA AGBASIERE/CHARGER:000008210726102755075577658507",
+                "pCredit": "0",
+                "pDebit": "3000",
+                "pBalance": "133985.38"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:033/BARNABAS CHUKWUEMEKA AGBASIERE/CHARGER:000008210726102755075577658507:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "133984.63"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK:000008210726103002202135007007:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "133974.63"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK:000008210726103002202135007007",
+                "pCredit": "0",
+                "pDebit": "2000",
+                "pBalance": "131974.63"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:070/WASIU OLAYINKA SALAMI/WEEK:000008210726103002202135007007:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "131973.88"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:033/NWODE JOSEPH/PANTS:000008210726104152912409606006:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "131963.88"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:033/NWODE JOSEPH/PANTS:000008210726104152912409606006",
+                "pCredit": "0",
+                "pDebit": "2000",
+                "pBalance": "129963.88"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:033/NWODE JOSEPH/PANTS:000008210726104152912409606006:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "129963.13"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:044/BISI JULIANAH UFO/TRANSFER 10000 FROM 3021   876 TO 1397   812:000008210726105818898655020606:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "129938.13"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:044/BISI JULIANAH UFO/TRANSFER 10000 FROM 3021   876 TO 1397   812:000008210726105818898655020606",
+                "pCredit": "0",
+                "pDebit": "10000",
+                "pBalance": "119938.13"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:044/BISI JULIANAH UFO/TRANSFER 10000 FROM 3021   876 TO 1397   812:000008210726105818898655020606:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "119936.25"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210726113748268666796007:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "119911.25"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210726113748268666796007",
+                "pCredit": "0",
+                "pDebit": "19000",
+                "pBalance": "100911.25"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:058/OLAOYE VICTORIA TOPE/TRF:000008210726113748268666796007:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "100909.37"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:058/OYELERE OLUSEGUN ISAAC/TRF:000008210726120418858629560006:FEE",
+                "pCredit": "0",
+                "pDebit": "25",
+                "pBalance": "100884.37"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:058/OYELERE OLUSEGUN ISAAC/TRF:000008210726120418858629560006",
+                "pCredit": "0",
+                "pDebit": "10200",
+                "pBalance": "90684.37"
+            },
+            {
+                "pTransactionDate": "07/26/2021",
+                "pValueDate": "07/26/2021",
+                "pNarration": "MOB.BNKG:058/OYELERE OLUSEGUN ISAAC/TRF:000008210726120418858629560006:VAT",
+                "pCredit": "0",
+                "pDebit": "1.88",
+                "pBalance": "90682.49"
+            },
+            {
+                "pTransactionDate": "07/27/2021",
+                "pValueDate": "07/27/2021",
+                "pNarration": "MOB.BNKG:221/OLUWASEGUN AKEEM ALABI/TRANSFER 5000 FROM 3021   876 TO 0006   095:000008210727183432672088494506:FEE",
+                "pCredit": "0",
+                "pDebit": "10",
+                "pBalance": "90672.49"
+            },
+            {
+                "pTransactionDate": "07/27/2021",
+                "pValueDate": "07/27/2021",
+                "pNarration": "MOB.BNKG:221/OLUWASEGUN AKEEM ALABI/TRANSFER 5000 FROM 3021   876 TO 0006   095:000008210727183432672088494506",
+                "pCredit": "0",
+                "pDebit": "5000",
+                "pBalance": "85672.49"
+            },
+            {
+                "pTransactionDate": "07/27/2021",
+                "pValueDate": "07/27/2021",
+                "pNarration": "MOB.BNKG:221/OLUWASEGUN AKEEM ALABI/TRANSFER 5000 FROM 3021   876 TO 0006   095:000008210727183432672088494506:VAT",
+                "pCredit": "0",
+                "pDebit": "0.75",
+                "pBalance": "85671.74"
+            },
+            {
+                "pTransactionDate": "07/28/2021",
+                "pValueDate": "07/28/2021",
+                "pNarration": "SWITCHIT 000045562963;NXG :TRFKE EPFRMKAYODEOL UW AS 416410  000045562963",
+                "pCredit": "120000",
+                "pDebit": "0",
+                "pBalance": "205671.74"
+            },
+            {
+                "pTransactionDate": "07/29/2021",
+                "pValueDate": "07/29/2021",
+                "pNarration": "SMS SERVICE CHARGED FOR 13 TRAN(S) : PERIOD APPLIED BTW 29/06/2021 AND 28/07/2021 - 3021857876",
+                "pCredit": "0",
+                "pDebit": "52",
+                "pBalance": "205619.74"
+            }
+        ]
+    },
+    "analytics": {
+        "result": {
+            "summary": [{
+                "crTransactions": 3,
+                "drTransactions": 273,
+                "ticketID": "1212226-2",
+                "nuban": "'3021857876",
+                "accountName": "Faluyi Kayode Oluwasanmi",
+                "signatoriesBVN": "Kayode Oluwasanmi  Faluyi 22266627124, Kayode Oluwasanmi  Faluyi 22266627124, Kayode Oluwasanmi  Faluyi 22266627124, Kayode Oluwasanmi  Faluyi 22266627124, Kayode Oluwasanmi  Faluyi 2226662712",
+                "category": "Consumer",
+                "type": "Savings",
+                "currency": "NGN",
+                "address": "6 NEW ESTATE KOTOPO TUNDE IBIKUNLE RD ILARO OTA ILARO OGUN NIGERIA",
+                "bank": "Polaris Bank"
+            }],
+            "dataPoints": [{
+                    "sn": 1,
+                    "item": "Recommended maximum monthly repayment - Deduced Salary",
+                    "value": "0"
+                },
+                {
+                    "sn": 2,
+                    "item": "Recommended maximum monthly repayment - Average Salary",
+                    "value": "0"
+                },
+                {
+                    "sn": 3,
+                    "item": "Recommended maximum monthly repayment - Steady Income",
+                    "value": "1496.54345238095"
+                },
+                {
+                    "sn": 4,
+                    "item": "Consistent minimum monthly income/salary, considering late salary payments and other income sources",
+                    "value": "0"
+                },
+                {
+                    "sn": 5,
+                    "item": "Average monthly salary",
+                    "value": "0"
+                },
+                {
+                    "sn": 6,
+                    "item": "Bank statement period in days",
+                    "value": "210"
+                },
+                {
+                    "sn": 7,
+                    "item": "Bank statement period in months",
+                    "value": "7"
+                },
+                {
+                    "sn": 8,
+                    "item": "Debt to income ratio ie. total debits over credits, excluding loans and own account transfers",
+                    "value": "21.99431"
+                },
+                {
+                    "sn": 9,
+                    "item": "Average daily balance ie. sum of daily balances divided by number of days",
+                    "value": "34992.0859047619"
+                },
+                {
+                    "sn": 10,
+                    "item": "Account activity ie. how many days within the period was there a transaction",
+                    "value": "82"
+                },
+                {
+                    "sn": 11,
+                    "item": "Average monthly credit count ie. total credits over total number of months, excluding loans and own account transfers",
+                    "value": "0.43452380952381"
+                },
+                {
+                    "sn": 12,
+                    "item": "Average monthly debit count ie. total debits over total number of months",
+                    "value": "31.7202380952381"
+                },
+                {
+                    "sn": 13,
+                    "item": "Maximum monthly credit volume ie. total volume of credits in the month with the highest volume, excluding loans and own account transfers",
+                    "value": "31000"
+                },
+                {
+                    "sn": 14,
+                    "item": "Minimum monthly credit volume ie. total volume of credits in the month with the lowest volume, excluding loans and own account transfers",
+                    "value": "31000"
+                },
+                {
+                    "sn": 15,
+                    "item": "Maximum monthly debit volume ie. total volume of debits in the month with the highest volume",
+                    "value": "237785.54"
+                },
+                {
+                    "sn": 16,
+                    "item": "Minimum monthly debit volume ie. total volume of debits in the month with the lowest volume",
+                    "value": "11550"
+                },
+                {
+                    "sn": 17,
+                    "item": "Days in debit ie. how many days was account in negative balance",
+                    "value": "0"
+                },
+                {
+                    "sn": 18,
+                    "item": "Average total monthly income ie. any regular type of credits excluding loans and own account transfers",
+                    "value": "4490.07936507936"
+                },
+                {
+                    "sn": 19,
+                    "item": "Total credit turnover ie total credits excluding own account transfers and loans",
+                    "value": "31000"
+                },
+                {
+                    "sn": 20,
+                    "item": "Existing obligations in the last 45 days e.g. loan repayments, subscriptions etc.",
+                    "value": "0"
+                },
+                {
+                    "sn": 21,
+                    "item": "Average monthly expenses excluding savings. Existing loan/service obligations + bill payments",
+                    "value": "98756.1974801587"
+                },
+                {
+                    "sn": 22,
+                    "item": "Consistent minimum monthly bills payments excluding savings and existing loan/service obligations. ",
+                    "value": "98756.1974801587"
+                },
+                {
+                    "sn": 23,
+                    "item": "Average monthly savings contributions",
+                    "value": "0"
+                },
+                {
+                    "sn": 24,
+                    "item": "Average monthly transfers to self",
+                    "value": "8362.057142"
+                },
+                {
+                    "sn": 25,
+                    "item": "Average monthly transfers from self",
+                    "value": "91335.714285"
+                },
+                {
+                    "sn": 26,
+                    "item": "Average monthly cash withdrwal count on ATM",
+                    "value": "0"
+                },
+                {
+                    "sn": 27,
+                    "item": "Average monthly cash withdrwal volume on ATM",
+                    "value": "0"
+                },
+                {
+                    "sn": 28,
+                    "item": "Average amount per ATM withdrawal",
+                    "value": "0"
+                },
+                {
+                    "sn": 29,
+                    "item": "Average monthly obligations e.g. loan repayments, cooperative deductions etc.",
+                    "value": "0"
+                },
+                {
+                    "sn": 30,
+                    "item": "Average monthly spend on gambling",
+                    "value": "0"
+                },
+                {
+                    "sn": 31,
+                    "item": "Debt to income ratio with no filters",
+                    "value": "0.767845"
+                },
+                {
+                    "sn": 32,
+                    "item": "Average daily balance - variant. This uses number of days with transactions rather than number of actual days",
+                    "value": "12455.1126"
+                },
+                {
+                    "sn": 33,
+                    "item": "Total credit turnover with no filters",
+                    "value": "885703.35"
+                },
+                {
+                    "sn": 34,
+                    "item": "Unclassified credit transactions",
+                    "value": "215353.35"
+                },
+                {
+                    "sn": 35,
+                    "item": "Unclassified debit transactions",
+                    "value": "3700"
+                }
+            ],
+            "monthlySummary": [{
+                    "type": "Income (All)",
+                    "amount": "31,000.00",
+                    "txn": 3,
+                    "mm1": "(0.00)",
+                    "mm2": "(0.00)",
+                    "mm3": "(0.00)",
+                    "mm4": "(0.00)",
+                    "mm5": "(0.00)",
+                    "mm6": "(0.00)"
+                },
+                {
+                    "type": "Expense (All)",
+                    "amount": "(686,410.49)",
+                    "txn": 219,
+                    "mm1": "(61,786.27)",
+                    "mm2": "(114,963.41)",
+                    "mm3": "(66,174.64)",
+                    "mm4": "(74,371.16)",
+                    "mm5": "(238,175.47)",
+                    "mm6": "(11,625.75)"
+                }
+            ]
+        },
+        "status": "00",
+        "message": "Successful"
+    }
+}
