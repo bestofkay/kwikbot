@@ -808,7 +808,7 @@ class TelegramApi extends REST_Controller {
 	}
 
 	private function dailySum($id){
-		$row = $this->db->query("SELECT SUM(amount) as sum_amount FROM telegram_transactions where telegram_id='".$id."' AND (ongoing_status=1 OR payment_status=1) AND create_at BETWEEN CURDATE() - INTERVAL 1 DAY AND CURDATE()")->row_array();
+		$row = $this->db->query("SELECT SUM(amount) as sum_amount FROM telegram_transactions where telegram_id='".$id."' AND (ongoing_status=1 OR payment_status=1) AND created_at > now() - interval 23 hour")->row_array();
 		return $row;
 	}
 
