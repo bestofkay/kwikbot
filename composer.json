@@ -15,11 +15,5 @@
 		"illuminate/database": "4.2.6",
 		"nesbot/carbon": "^1.22",
 		"mormat/php-formula-interpreter": "^1.0"
-	},
-	"suggest": {
-		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
-	},
-	"require-dev": {
-		"mikey179/vfsStream": "1.1.*"
 	}
 }
