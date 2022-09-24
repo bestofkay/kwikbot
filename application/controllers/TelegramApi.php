@@ -442,7 +442,7 @@ class TelegramApi extends REST_Controller {
 					$get_rate = $this->getRate();
 					$ar = array('stage'=>'Transfer Fund','stage_position'=>0);
 					$this->update_stage($ar, $telegram_id);
-					$msg="We make direct deposit into recipient local banks and mobile money. We supports all major banks and payment merchants in Nigeria at minimal cost".chr(10).chr(10)."HOW IT WORKS:".chr(10).chr(10)."1).  Send dollars (USDT/ BUSD) to our unique generated wallet address.".chr(10)."2). Provide name, phone, emails and account details of recipient.".chr(10)."3). On receiving the money in our wallet, sender and recipients receives SMS/email notification.".chr(10)."4). Within 24hrs the fund is disbursed. Sender receives disbursed Email/SMS notification.".chr(10).chr(10)."OUR CHARGES:".chr(10).chr(10)."All our Charges are transparent.".chr(10).chr(10)."$100 - $499.99 == $2.5".chr(10)."$500 - $5000 == 0.75%".chr(10).chr(10)."RULES:".chr(10).chr(10)."$5,000 Transaction per day".chr(10).chr(10)."OUR EXCHNANGE RATE AS AT NOW::".chr(10)."1$ == ₦".number_format($get_rate['value'],2);
+					$msg="We make direct deposit into recipient local banks and mobile money. We supports all major banks and payment merchants in Nigeria at minimal cost".chr(10).chr(10)."HOW IT WORKS:".chr(10).chr(10)."1).  Send dollars (USDT/ BUSD) to our unique generated wallet address.".chr(10)."2). Provide name, phone, emails and account details of recipient.".chr(10)."3). On receiving the money in our wallet, sender and recipients receives SMS/email notification.".chr(10)."4). Within 12hrs of onfirming paymentment, fund is disbursed to recipient. Sender receives disbursed Email/SMS notification.".chr(10).chr(10)."OUR CHARGES:".chr(10).chr(10)."All our Charges are transparent.".chr(10).chr(10)."$100 - $499.99 == $2.5".chr(10)."$500 - $5000 == 0.75%".chr(10).chr(10)."RULES: Maximum:".chr(10).chr(10)."$5,000 per transaction".chr(10).chr(10)."OUR EXCHNANGE RATE AS AT NOW::".chr(10)."1$ == ₦".number_format($get_rate['value'],2);
 
 					$keyboard = array(
 						["Agree"], ["Disagree"]
@@ -514,7 +514,7 @@ class TelegramApi extends REST_Controller {
 
 						$time = time().$telegram_id;
 						$code = sha1($time);
-						$array= array('telegram_id'=>$telegram_id, 'amount'=>$digital_value, 'charges'=>$charges, 'transaction_code'=>strtoupper($code), 'created_at'=>date('Y-m-d h:i:s'));
+						$array= array('telegram_id'=>$telegram_id, 'amount'=>($digital_value - $charges), 'charges'=>$charges, 'transaction_code'=>strtoupper($code), 'created_at'=>date('Y-m-d h:i:s'));
 						$transaction_id = $this->insertTransactions($array);
 						$ar = array('stage_position'=>2, 'last_transaction_id'=>$transaction_id);
 					    $this->update_stage($ar, $telegram_id);
@@ -661,8 +661,9 @@ class TelegramApi extends REST_Controller {
 					$account_name=$check_bank_details['account_name'];
 					$account_no= $check_bank_details['account_number'];
 					$get_rate = $this->getRate();
+					$recipient_amount= $get_rate['value'] * ($transaction_details['amount'] + $transaction_details['charges']);
 					
-					$array=array('recipient_account_no'=>$userInput);
+					$array=array('recipient_account_no'=>$userInput,'disbursed_amount'=>$recipient_amount);
 
 						####################### UPDATE USER FULLNAME AND SATGE POSITION FOR REGISTRATION ######################################
 						$this->update_telegramTransactions($array, $existing_user['last_transaction_id']);
@@ -679,7 +680,7 @@ class TelegramApi extends REST_Controller {
 									$reply = json_encode($resp);
 								
 						file_get_contents($path.'/sendChatAction?chat_id='.$chat_id.'&action=typing');
-						$msg = 'ACCOUNT VERIFICATION::'.chr(10).chr(10).'Account Holder:: '.$account_name.chr(10).chr(10).'Account Number:: '.$account_no.chr(10).chr(10).chr(10).'TRANSACTION DETAILS:: '.chr(10).chr(10).'Recipient Name:: '.$transaction_details['recipient_name'].chr(10).chr(10).'Recipient Mobile:: '.$transaction_details['recipient_mobile'].chr(10).chr(10).'Recipient Bank:: '.$transaction_details['recipient_bank'].chr(10).chr(10).'Transfer Amount:: $'.$transaction_details['amount'].chr(10).chr(10).'Transfer Charges:: $'.$transaction_details['charges'].chr(10).chr(10).'Total Payment:: $'.number_format(($transaction_details['charges'] + $transaction_details['amount']), 2).chr(10).chr(10).'Dollar => Naira:: ₦'.number_format($get_rate['value'], 2).chr(10).chr(10).'Recipent Receives:: ₦'.number_format(($get_rate['value'] * $transaction_details['amount']), 2) ;
+						$msg = 'ACCOUNT VERIFICATION::'.chr(10).chr(10).'Account Holder:: '.$account_name.chr(10).chr(10).'Account Number:: '.$account_no.chr(10).chr(10).chr(10).'TRANSACTION DETAILS:: '.chr(10).chr(10).'Recipient Name:: '.$transaction_details['recipient_name'].chr(10).chr(10).'Recipient Mobile:: '.$transaction_details['recipient_mobile'].chr(10).chr(10).'Recipient Bank:: '.$transaction_details['recipient_bank'].chr(10).chr(10).'Transfer Amount:: $'.$transaction_details['amount'].chr(10).chr(10).'Transfer Charges:: $'.$transaction_details['charges'].chr(10).chr(10).'Total Payment:: $'.number_format(($transaction_details['charges'] + $transaction_details['amount']), 2).chr(10).chr(10).'Dollar => Naira:: ₦'.number_format($get_rate['value'], 2).chr(10).chr(10).'Recipent Receives:: ₦'.number_format($recipient_amount, 2) ;
 						file_get_contents($path."/sendmessage?chat_id=$chat_id&text=".urlencode($msg) ."&reply_markup=".$reply);
 						return; 
 						####################### END OF RESPONSE FOR ADDRESS ######################################  
@@ -730,13 +731,8 @@ class TelegramApi extends REST_Controller {
 
 				$ar = array('stage_position'=>1);
 				$this->update_stage($ar, $telegram_id);
-				$balance = $this->dailySum($telegram_id);
-				$spending = number_format(5000,2);
-				if(!empty($balance)){
-					$spending = number_format((5000 - $balance['sum_amount']), 2);
-				}
 				
-				$msg="You have transfer limit of $".$spending." for today.".chr(10).chr(10)."Kindly select or enter amount to send 💰 ".chr(10).chr(10)."(Max transfer:: $".$spending.")";
+				$msg="You have transfer limit of $5000.".chr(10).chr(10)."Kindly select or enter amount to send 💰 ".chr(10).chr(10)."(Max transfer:: $5000)";
 				$keyboard = array(
 					["100"], ["200"],["500"],['1000'],['2000'],['3000'],['5000']
 				);
