@@ -855,6 +855,10 @@ class TelegramApi extends REST_Controller {
 					}else{
 						
 						$msg="";
+						if($valid_code['cancel_request'] == 1){
+							$msg.= $valid_code['cancel_details'].chr(10).chr(10)."Your Pay will be refunded within 48hrs with 10% deduction.";
+						}
+
 						if($valid_code['payment_status'] == 0){
 							$msg.= "Payment yet be confirmed by KwikExchange".chr(10).chr(10)."Kindly send <code>Transcation ID</code> as proof if you have not sent it".chr(10).chr(10);
 						}
