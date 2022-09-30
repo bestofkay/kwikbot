@@ -861,10 +861,10 @@ class TelegramApi extends REST_Controller {
 						if($valid_code['payment_status'] == 1){
 							$msg.= "Payment of $".number_format($valid_code['amount'], 2)." has been confirmed by KwikExchange".chr(10).chr(10);
 						}
-						if($valid_code['payment_status'] == 1 && $valid_code['disbursement_status'] == 0){
+						if($valid_code['payment_status'] == 1 && $valid_code['delivered_status'] == 0){
 							$msg.= "Fund yet be disbursed.".chr(10)."Recipient has been sent SMS".chr(10).chr(10)."Disbursement will be done soon".chr(10).chr(10);
 						}
-						if($valid_code['disbursement_status'] == 1){
+						if($valid_code['delivered_status'] == 1){
 							$msg.= "Fund disbursed successfully to recipient.".chr(10)."Transfer completed";
 						}
 
