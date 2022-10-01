@@ -475,7 +475,7 @@ class TelegramApi extends REST_Controller {
 				elseif($userInput == "Support"){
 					
 					file_get_contents($path.'/sendChatAction?chat_id='.$updates->message->chat->id.'&action=typing');
-					$msg="Our supports and Customer Care are on ground to attend to your questions".chr(10).chr(10)."Kindly click https://t.me/Gbemitey to chat supports team";
+					$msg="Our supports and Customer Care are on ground to attend to your questions".chr(10).chr(10)."Kindly click https://t.me/kwikExchange to chat with our supports team";
 					file_get_contents($path."/sendmessage?chat_id=$chat_id&text=".urlencode($msg) ."&reply_markup=".$reply);
 					return;
 					
