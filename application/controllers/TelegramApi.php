@@ -442,7 +442,8 @@ class TelegramApi extends REST_Controller {
 					$get_rate = $this->getRate();
 					$ar = array('stage'=>'Transfer Fund','stage_position'=>0);
 					$this->update_stage($ar, $telegram_id);
-					$msg="We make direct deposit into recipient local banks and mobile money. We supports all major banks and payment merchants in Nigeria at minimal cost".chr(10).chr(10)."HOW IT WORKS:".chr(10).chr(10)."1).  Send dollars (USDT/ BUSD) to our unique generated wallet address.".chr(10)."2). Provide name, phone, emails and account details of recipient.".chr(10)."3). On receiving the money in our wallet, sender and recipients receives SMS/email notification.".chr(10)."4). Within 12hrs of onfirming paymentment, fund is disbursed to recipient. Sender receives disbursed Email/SMS notification.".chr(10).chr(10)."OUR CHARGES:".chr(10).chr(10)."All our Charges are transparent.".chr(10).chr(10)."$100 - $999.99 == $1".chr(10)."$1000 - $5000 == 2$".chr(10).chr(10)."RULES: Maximum:".chr(10).chr(10)."$5,000 per transaction".chr(10).chr(10)."OUR EXCHNANGE RATE AS AT NOW::".chr(10)."1$ == ₦".number_format($get_rate['value'],2);
+					$msg="We make direct deposit into recipient local banks and mobile money. We supports all major banks and payment merchants in Nigeria at minimal cost".chr(10).chr(10)."HOW IT WORKS:".chr(10).chr(10)."1).  Send dollars (USDT/ BUSD) to our unique generated wallet address.".chr(10)."2). Provide name, phone, emails and account details of recipient.".chr(10)."3). On receiving the money in our wallet, sender and recipients receives SMS/email notification.".chr(10)."4). Within 12hrs of onfirming paymentment, fund is disbursed to recipient. Sender receives disbursed Email/SMS notification.".chr(10).chr(10)."OUR CHARGES:".chr(10).chr(10)."All our Charges are transparent.".chr(10).chr(10)."$100 - $499.99 == $1".chr(10)."$500 - $5000 == 0.5%".chr(10).chr(10)."RULES: Maximum:".chr(10).chr(10)."$5,000 per transaction".chr(10).chr(10)."OUR EXCHNANGE RATE AS AT NOW::".chr(10)."$1 == ₦".number_format($get_rate['value'],2)
+					.chr(10).chr(10)."REFUND:".chr(10).chr(10)."Refund is made when fund sent is lesser than or greater than total transaction cost".chr(10)."COST OF REFUND::".chr(10)."$50 deduction";
 
 					$keyboard = array(
 						["Agree"], ["Disagree"]
@@ -505,10 +506,10 @@ class TelegramApi extends REST_Controller {
 
 					$digital_value = preg_replace("/[^0-9\.]/", '', $userInput);
 					$digital_value = (float)$digital_value;
-					if($digital_value < 1000){
-						$charges = 1;
+					if($digital_value < 500){
+						$charges = 2;
 					}else{
-						$charges = (0.25/100) * $digital_value;
+						$charges = (0.5/100) * $digital_value;
 					}
 					if($digital_value >= 100 && $digital_value <= 5000){
 
